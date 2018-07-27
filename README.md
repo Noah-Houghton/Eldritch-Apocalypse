@@ -54,6 +54,14 @@ Players take on the role of a town's ruling leadership and make decisions at eac
     1.  Buildings are constructed, resources are generated, troop movements / battles are resolved, etc.
 1.  Enemy Cycle is resolved
     1.  Missions completed, troops moved, etc etc.
+    1.  Enemy turn
+        1.  The enemy factions each take their actions based on their level of Secrets. If an Enemy has a high Secrets level, they may make more informed decisions up to and including active sabotage of SpecOp missions.
+        1.  Enemy actions include:
+            1.  Fortify
+            1.  Expand
+            1.  Attack
+            1.  Sabotage
+            1.  Gather Secrets
 1.  Players make decisions about how to allocate resources
     1.  Can choose between a variety of buildings/improvements to construct, recruit add'l people, scavenge for food, etc.
     1.  Occasionally there will be a Crisis; this can either be addressed by spending the appropriate amount of a given resource to cull its negative effects or allowed to resolve at detriment to the settlement. Some Crises may also be handled by deploying SpecOps with the necessary skills to handle the Crisis.
@@ -65,14 +73,7 @@ Players take on the role of a town's ruling leadership and make decisions at eac
         1.  Clear assignments
         1.  Escort assignments
     1.  SpecOps may also travel alongside the party at an additional food cost.
-1.  Enemy response
-    1.  The enemy factions each take their actions based on their level of Secrets. If an Enemy has a high Secrets level, they may make more informed decisions up to and including active sabotage of SpecOp missions.
-    1.  Enemy actions include:
-        1.  Fortify
-        1.  Expand
-        1.  Attack
-        1.  Sabotage
-        1.  Gather Secrets
+
 
 
 #### Tactical Map
