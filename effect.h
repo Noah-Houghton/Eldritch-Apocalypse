@@ -6,7 +6,7 @@
 
 class Effect {
   // variables
-  bool temporary;
+  bool permanent;
   int duration;
   char* name;
   // functions

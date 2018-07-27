@@ -6,15 +6,10 @@
 #ifndef IMPROVEMENT_H
 #define IMRPROVEMENT_H
 
-struct UpgradeCost {
-  ResourceType type;
-  int amount;
-};
-
 class Tier {
   char* name;
   list <Effect> effects;
-  list <UpgradeCost> costs;
+  list <Effect> costs;
   int timeToBuild;
   bool maxLevel;
   char* flavorText;
