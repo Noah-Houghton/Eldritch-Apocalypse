@@ -24,5 +24,3 @@ class Resource:
         self.passive += value
     def MultiplyPassive(self, value):
         self.passive *= value
-
-Water = Resource("Water")
