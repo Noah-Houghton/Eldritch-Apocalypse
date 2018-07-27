@@ -552,6 +552,10 @@ Monstrosity can be decreased by:
 ### Warlock Pact - The Great Dreamer
 
 
+### Blood Hunter Order - Order of the Abomination
+Reskin/Tweak of Order of the Lycan
+
+
 ### Eldritch Alchemist (Wizard)
 
 
@@ -562,6 +566,16 @@ Monstrosity can be decreased by:
 
 
 ### Eldritch Shifter (Druid)
+
+
+### Demagogue (Bard)
+
+
+### Shadow Tinker (Rogue)
+
+
+### Demonic Host (Ranger)
+
 
 
 ## Locations
