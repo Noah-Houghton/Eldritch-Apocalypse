@@ -18,7 +18,7 @@ class Entity {
   void SetLocation(location newLocation);
 };
 
-class MovingEntity : Entity {
+class MovableEntity : Entity {
   // variables
   list <location> locationHistory;
   location destination;
