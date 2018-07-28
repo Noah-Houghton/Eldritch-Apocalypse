@@ -20,5 +20,9 @@ class Resource {
   void SetType(ResourceType newType);
 };
 
+class Movement : Resource {
+  
+}
+
 // end of header guard
 #endif

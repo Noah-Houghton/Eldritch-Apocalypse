@@ -27,7 +27,7 @@ class Event {
 
 class Crisis : Event {
   list <Effect> noResponse;
-  list <Action>
+  list <Action> responses;
 };
 
 

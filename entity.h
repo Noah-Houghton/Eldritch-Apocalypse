@@ -8,7 +8,7 @@
 class Entity {
   // variables
   char* name
-  location loc;
+  Node loc;
   list <Effect> effects;
   // functions
   void DoEffects();
@@ -16,22 +16,24 @@ class Entity {
   void RemoveEffect(Effect &toRemove);
   char* GetName();
   void SetName(char* newName);
-  location GetLocation();
-  void SetLocation(location newLocation);
+  Node GetCurrentNode();
+  void SetNode(Node newNode);
 };
 
 class MovableEntity : Entity {
   // variables
-  list <location> locationHistory;
-  location destination;
-  int speed;
+  list <&Node> nodeHistory;
+  Node destination;
+  Movement movement;
   // functions
-  void SetDestination(location newDestination);
-  void SetSpeed(int newSpeed);
-  int GetSpeed();
-  list <location> GetLocationHistory();
-  void AddToHistory(location newHistory);
+  void SetDestination(Node newDestination);
+  void SetMovement(Movement newMovement);
+  list <&Node> GetLocationHistory();
+  void AddToHistory(Node newHistory);
   void ClearHistory();
+  // pathfinding operations
+  static list <&Edge> findPath(Node A, Node B);
+  list <&Edge> GetPath(list <&Node> nodes);
 };
 
 #endif

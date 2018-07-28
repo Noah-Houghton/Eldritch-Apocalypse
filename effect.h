@@ -32,6 +32,10 @@ class Cost : Effect {
   list <Resource> DisplayCost();
 };
 
+class MovementCost : Cost {
+
+};
+
 
 // end of header guard
 #endif

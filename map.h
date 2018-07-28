@@ -3,20 +3,42 @@
 #ifndef MAP_H
 #define MAP_H
 
-enum Terrain {Road = 0; Mountain = 1};
+class Terrain {
+  list <Effect> effects;
+  MovementCost movementCost;
+  // functions
+  void Effect(Entity &E);
+  private:
+    bool EffectOccurs(Entity &E, int probabilitySeed);
+};
 
-struct location {
+// predefining so that we can give Edges nodes & vice-versa
+class Edge;
+
+class Node {
   int X;
   int Y;
+  Entity <list> occupants;
+  int capacity;
+  list <Edge> edges;
+  Terrain terrain;
+  // function
+  std::pair <int, int> GetLocation();
+  list <&Entity> GetOccupants();
+  list <&Edge> GetEdges();
+};
+
+class Edge {
+  const Node node1;
+  const Node node2;
   Terrain terrain;
 };
 
-
 class Map {
   // variables
-  int Width;
-  int Height;
-
+  int width;
+  int height;
+  list <Settlement> settlements;
   // functions
 
 

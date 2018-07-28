@@ -16,6 +16,7 @@ class Settlement : Entity {
   list <Unit> units;
   list <Effect> effects;
   list <Resource> resources;
+  list <Improvement> improvements;
   SettlementType type;
 
   // functions
