@@ -14,7 +14,7 @@ class Action {
   void performAction(Entity target);
 };
 
-class Encounter {
+class Event {
   // variables
   char* name;
   char* description;
@@ -23,7 +23,7 @@ class Encounter {
 
 };
 
-class Crisis : Encounter {
+class Crisis : Event {
   list <Effect> noResponse;
   list <Action>
 };
