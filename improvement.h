@@ -10,7 +10,7 @@ class Upgrade {
   // variables
   char* name;
   list <Effect> effects;
-  list <Effect> costs;
+  list <Cost> costs;
   int timeToBuild;
   char* flavorText;
   char* tierDescription;

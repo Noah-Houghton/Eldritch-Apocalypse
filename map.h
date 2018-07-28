@@ -3,13 +3,13 @@
 #ifndef MAP_H
 #define MAP_H
 
+enum Terrain {Road = 0; Mountain = 1};
+
 struct location {
   int X;
   int Y;
   Terrain terrain;
 };
-
-enum Terrain {Road = 0; Mountain = 1};
 
 
 class Map {

@@ -9,10 +9,12 @@ class Action {
   char* description;
   bool bIsNegative;
   list <Effect> effects;
-  list <Effect> costs;
+  list <Cost> costs;
   // functions
-  void performAction(Entity target);
+  void PerformAction(Entity &target);
+  bool CanPerformAction(Entity &target);
 };
+
 
 class Event {
   // variables

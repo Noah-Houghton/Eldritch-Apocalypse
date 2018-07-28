@@ -9,13 +9,13 @@ class Effect {
   bool bIsStackable;
   char* name;
   // functions
-  void Effect(Settlement &S);
+  void Effect(Entity &E);
 };
 
 class SemipermanentEffect : Effect {
   private:
     // functions
-    bool IsSatisifed(const Settlement &S);
+    bool IsSatisifed(const Entity &E);
 };
 
 class TempEffect : Effect {
@@ -23,6 +23,14 @@ class TempEffect : Effect {
      int duration;
 };
 
+class Cost : Effect {
+  // variables
+  list <Resource> cost;
+  // functions
+  void SetCost(list <Resource> newCost);
+  bool bCanAfford(Entity &E);
+  list <Resource> DisplayCost();
+};
 
 
 // end of header guard
