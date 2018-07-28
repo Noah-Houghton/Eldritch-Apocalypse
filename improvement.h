@@ -6,25 +6,29 @@
 #ifndef IMPROVEMENT_H
 #define IMRPROVEMENT_H
 
-class Tier {
+class Upgrade {
+  // variables
   char* name;
   list <Effect> effects;
   list <Effect> costs;
   int timeToBuild;
-  bool maxLevel;
   char* flavorText;
   char* tierDescription;
+  // functions
+  bool canBuild(const Settlement);
 };
 
 class Improvement {
   // variables
-  list <Tier> tiers;
+  list <Upgrade> upgrades;
   Tier currentTier;
   bool constructed;
+  bool bIsMaxLevel;
   bool active;
   // functions
   void ProcessEffects();
   char* DescribeEffects();
+  void Upgrade();
 };
 
 
