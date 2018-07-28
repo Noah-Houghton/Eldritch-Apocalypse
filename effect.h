@@ -6,12 +6,21 @@
 
 class Effect {
   // variables
-  bool bIsPermanent;
   bool bIsStackable;
-  int duration;
   char* name;
   // functions
-  void Effect(Settlement S);
+  void Effect(Settlement &S);
+};
+
+class SemipermanentEffect : Effect {
+  private:
+    // functions
+    bool IsSatisifed(const Settlement &S);
+};
+
+class TempEffect : Effect {
+  private:
+     int duration;
 };
 
 

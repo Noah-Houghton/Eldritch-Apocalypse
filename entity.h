@@ -12,6 +12,8 @@ class Entity {
   list <Effect> effects;
   // functions
   void DoEffects();
+  void AddEffect(Effect &newEffect);
+  void RemoveEffect(Effect &toRemove);
   char* GetName();
   void SetName(char* newName);
   location GetLocation();
