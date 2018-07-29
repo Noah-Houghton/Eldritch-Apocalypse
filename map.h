@@ -12,7 +12,7 @@ class Terrain {
     bool EffectOccurs(Entity &E, int probabilitySeed);
 };
 
-// predefining so that we can give Edges nodes & vice-versa
+// predefining so that we can give Edges Nodes & vice-versa
 class Edge;
 
 class Node {

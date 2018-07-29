@@ -9,8 +9,9 @@ class Resource {
   // variables
   int max;
   int amount;
+  bool bIsCapped;
   Effect zeroEffect;
-
+  Effect overflowEffect;
   // functions
   void SetZeroEffect(Effect newEffect);
   Effect GetZeroEffect();
@@ -21,7 +22,7 @@ class Resource {
 };
 
 class Movement : Resource {
-  
+
 }
 
 // end of header guard

@@ -12,6 +12,11 @@ class Effect {
   void Effect(Entity &E);
 };
 
+class Reputation : Effect {
+  // functions
+  bool remainsValid(const Entity &E);
+}
+
 class SemipermanentEffect : Effect {
   private:
     // functions

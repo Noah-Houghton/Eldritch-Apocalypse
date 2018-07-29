@@ -42,13 +42,27 @@ This ruleset is designed with two major goals in mind:
 ### Grand Strategy
 
 
+#### Example Scenario: Units, Readiness, War
+Player 1 (P1) controls a Settlement (S1) and is considering making a large-scale attack against a Cthulhu Settlement (C1). There is another enemy faction nearby also warring with Cthulhu, the Leviathan Settlement (L1). P1 decides to send a Diplomat SpecOp to attempt to convince L1 to attack C1. Because the two factions in question are at war, this has a better chance of success than it normally would. Unfortunately the SpecOp rolls poorly and returns at the start of the next turn without success, narrowly avoiding being killed. P1 decides to wait until the attack happens organically, sending a Spy to establish a Listening Post in that Settlement. When the attack is sent out, P1 is ready. In the intervening terms, P1 has spent a good chunk of Population on increasing Readiness and Wealth. P1 spends half of their Readiness and throws in 10 Wealth to generate a massive Army unit. P1 carefully lays a path between S1 and C1 so that the Army will arrive shortly after the L1 attack occurs. Knowing that S1 will be vulnerable until the Army returns, P1 asks Player 2 (P2) for reinforcements.
+
+#### Example Scenario: Upgrades, Crises, Secrets
+Player 1 (P1) controls a Settlement (S1) which is a Camp about to grow into a Collective. The Upgrade which will enable the transition from Camp to Collective (House) will cost 2 Building Materials and 20 Population worth of production for a full turn. On the turn P1 wanted to make this change, however, a Crisis occurs. 'Crop Failure' causes Farms to produce 2 less Food per turn for 2 turns if not dealt with. There are 2 Standard Options and 1 Special Option to deal with this problem.
+
+* Standard Option 1 is to dedicate Population to harvesting what can be saved. This costs 10 Population and reduces the Effect down to 1 less Food per turn.
+
+* Standard Option 2 is to slash and burn the crop fields, resulting in a one-time loss of 3 Food but preventing any lasting Effect.
+
+This Crisis does not have a full-resolve option.
+
+P1, however, is in luck. Within S1 there is an Arcanist Special Operative (SpecOp A) whose Specialization is Agriculture. This means that the Operative can be deployed for the turn within the Camp to resolve most Agriculture Crises. Larger-scale Crises demand more labor, and the number of Units required to resolve a Crisis in this way scales with Settlement size and Crisis Severity. In general, 10 of a Unit = 1 SpecOp.
+
+P1 deploys SpecOp A to the Camp, and the Crisis is resolved without issue. Before making this change, P1 decides they want to know what their enemy is planning for the next turn. P1 spends a Secret to uncover what the main Cthulhu Settlement (C1) is doing. C1 is planning to mount an attack against a nearby NPC Settlement. P1 doesn't have the resources to help, and so takes the chance to move forward with the Upgrade. At the beginning of the next turn, when Actions are resolved, the Upgrade is complete.
+
 #### Overview
 
 The Grand Strategy mechanics are designed to give players a sense of the larger world and their impact in it, as well as a way to create passive resource generation and add depth to the player experience.
 
 Players take on the role of a town's ruling leadership and make decisions at each Cycle (a length of time at the discretion of the DM). Each Cycle takes the following structure:
-
-
 
 1.  Resolve last Cycle's longterm projects
     1.  Buildings are constructed, resources are generated, troop movements / battles are resolved, etc.
@@ -95,6 +109,13 @@ Secrets make the world go round. Spend secrets on the world map to reduce the di
 
 #### Special Operatives
 
+##### Missions
+
+###### Friendly
+
+###### Enemy
+
+
 
 ##### Proteges
 
@@ -116,6 +137,17 @@ Players have the option to recruit a custom operative that their main character 
 
 
 ##### Spies
+
+
+#### Units
+
+##### Army
+
+##### Trader
+
+##### Supply Caravan
+
+##### Settlers
 
 
 #### Types of Settlement
@@ -417,7 +449,7 @@ Example:
 *   Prerequisites:
 
 
-#### Settlement Resources
+#### Resources
 
 
 ##### Food
@@ -492,11 +524,15 @@ A Settlement is considered Loyal if its Loyalty is above 70%; the DC for a villa
 
 ##### Readiness
 
-Readiness is a measure of a Settlement's ability to respond quickly to attacks and other events. The Readiness percentage of a town is multiplied by the population to determine the size of its defense force in the event of a surprise attack. Readiness also determines the likelihood of discovering a Sabotage mission in the city. Finally, Readiness determines the size of the attacking force which can be mustered in a short time. Readiness plus 1% per 2 wealth spent is multiplied by population to muster an attack force. Defensive readiness is reduced by the amount of readiness spent in the attack.
+Readiness is a measure of a Settlement's ability to respond quickly to attacks and other events. The Readiness percentage of a town is multiplied by the population to determine the size of its defense force in the event of a surprise attack. Readiness also determines the likelihood of discovering a Sabotage mission in the city. Finally, Readiness determines the size of the attacking force which can be mustered instantly. Readiness plus 1% per 2 wealth spent is multiplied by population to muster an attack force. Defensive readiness is reduced by the amount of readiness spent to form the attacking Unit.
 
 Readiness is a percentage value from 0% to 100%. Readiness is reduced by 1% for every Population increase.
 
 Readiness can be increased by assigning Population to tasks or by player action. Certain SpecOp missions will also cause Readiness to increase or decrease. Readiness decreases at a steady rate down to a floor determined by the individual Settlement. This rate of decay can be lessened by certain Improvements.
+
+
+#### Defense
+Defense is a measure of a Settlement's passive ability to defend itself - fortifications, preparation, etc. This number is added to a Settlement's Readiness when calculating the outcome of defending an attack.
 
 
 ### Firearms
@@ -539,11 +575,12 @@ Monstrosity can be decreased by:
 *   Certain magical items
 *   Brewed remedies
 
-
 ## Races
 
 
 ### Abomination
+
+## Monsters
 
 
 ## Subclasses

@@ -25,6 +25,7 @@ class MovableEntity : Entity {
   list <&Node> nodeHistory;
   Node destination;
   Movement movement;
+  bool bIgnoresTerrain;
   // functions
   void SetDestination(Node newDestination);
   void SetMovement(Movement newMovement);
