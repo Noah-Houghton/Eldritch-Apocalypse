@@ -1,15 +1,16 @@
 #ifndef ENCOUNTER_H
 #define ENCOUNTER_H
 #include <list>
+#include "effect.h"
 
 
 class Action {
   // variables
-  char* std::list;
+  char* name;
   char* description;
   bool bIsNegative;
-  list <Effect> effects;
-  list <Cost> costs;
+  std::list <Effect> effects;
+  std::list <Cost> costs;
   // functions
   void PerformAction(Entity &target);
   bool CanPerformAction(Entity &target);
@@ -20,14 +21,14 @@ class Event {
   // variables
   char* std::list;
   char* description;
-  list <Action> responses;
+  std::list <Action> responses;
   // functions
 
 };
 
 class Crisis : Event {
-  list <Effect> noResponse;
-  list <Action> responses;
+  std::list <Effect> noResponse;
+  std::list <Action> responses;
 };
 
 

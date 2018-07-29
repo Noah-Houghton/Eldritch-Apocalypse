@@ -6,7 +6,9 @@
 #include "resource.h"
 #include "unit.h"
 #include "entity.h"
-#include <std::list>
+#include "improvement.h"
+#include <list>
+#include "player.h"
 
 enum SettlementType {CAMP = 0; COLLECTIVE = 1};
 
@@ -18,6 +20,7 @@ class Settlement : Entity {
   std::list <Resource> resources;
   std::list <Improvement> improvements;
   SettlementType type;
+  Player controllingPlayer;
 
   // functions
   std::list <int> CalculateEffects(Settlement S);
