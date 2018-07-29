@@ -1,8 +1,9 @@
-#include "settlement.h"
 // header guard
 
 #ifndef EFFECT_H
 #define EFFECT_H
+
+#include "settlement.h"
 
 class Effect {
   // variables
@@ -30,11 +31,11 @@ class TempEffect : Effect {
 
 class Cost : Effect {
   // variables
-  list <Resource> cost;
+  std::list <Resource> cost;
   // functions
-  void SetCost(list <Resource> newCost);
+  void SetCost(std::list <Resource> newCost);
   bool bCanAfford(Entity &E);
-  list <Resource> DisplayCost();
+  std::list <Resource> DisplayCost();
 };
 
 class MovementCost : Cost {

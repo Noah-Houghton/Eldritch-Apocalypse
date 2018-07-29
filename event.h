@@ -1,11 +1,11 @@
-#include <list>
-
 #ifndef ENCOUNTER_H
 #define ENCOUNTER_H
+#include <list>
+
 
 class Action {
   // variables
-  char* name;
+  char* std::list;
   char* description;
   bool bIsNegative;
   list <Effect> effects;
@@ -18,7 +18,7 @@ class Action {
 
 class Event {
   // variables
-  char* name;
+  char* std::list;
   char* description;
   list <Action> responses;
   // functions

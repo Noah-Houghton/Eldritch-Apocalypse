@@ -1,21 +1,20 @@
+#ifndef ENTITY_H
+#define ENTITY_H
 #include "effect.h"
 #include <list>
 #include "map.h"
 
-#ifndef ENTITY_H
-#define ENTITY_H
-
 class Entity {
   // variables
-  char* name
+  char* std::list
   Node loc;
   list <Effect> effects;
   // functions
   void DoEffects();
   void AddEffect(Effect &newEffect);
   void RemoveEffect(Effect &toRemove);
-  char* GetName();
-  void SetName(char* newName);
+  char* Getstd::list();
+  void Setstd::list(char* newstd::list);
   Node GetCurrentNode();
   void SetNode(Node newNode);
 };

@@ -4,7 +4,9 @@
 ## Todo
 
 
-
+*   reorganize this doc
+    * maybe split into an overview doc and smaller, more specific docs?
+*   add documentation for app in spec.md
 *   Add setting description
 *   Better flavor/description text
 *   Brainstorm GS Improvements
@@ -26,7 +28,8 @@
 *   Brainstorm/draft locations
 
 
-## Summary of Changes
+## Design Philosophy
+
 
 This ruleset is designed with two major goals in mind:
 
@@ -34,6 +37,15 @@ This ruleset is designed with two major goals in mind:
 
 1.  To create a world which allows the standard D&D ruleset to be set in a post-modern setting;
 1.  To add a number of custom mechanics to the game to enhance the depth of the player experience.
+
+## Summary of Changes
+
+* Custom modern setting
+* Adds a Grand Strategy layer to the game
+  * Computer program to help manage this process
+* Monstrosity
+* Rules for modern firearms
+* Races, Subclasses, and Monsters designed to make use of Modern and Eldritch setting
 
 
 ## Mechanics
@@ -43,7 +55,7 @@ This ruleset is designed with two major goals in mind:
 
 
 #### Example Scenario: Units, Readiness, War
-Player 1 (P1) controls a Settlement (S1) and is considering making a large-scale attack against a Cthulhu Settlement (C1). There is another enemy faction nearby also warring with Cthulhu, the Leviathan Settlement (L1). P1 decides to send a Diplomat SpecOp to attempt to convince L1 to attack C1. Because the two factions in question are at war, this has a better chance of success than it normally would. Unfortunately the SpecOp rolls poorly and returns at the start of the next turn without success, narrowly avoiding being killed. P1 decides to wait until the attack happens organically, sending a Spy to establish a Listening Post in that Settlement. When the attack is sent out, P1 is ready. In the intervening terms, P1 has spent a good chunk of Population on increasing Readiness and Wealth. P1 spends half of their Readiness and throws in 10 Wealth to generate a massive Army unit. P1 carefully lays a path between S1 and C1 so that the Army will arrive shortly after the L1 attack occurs. Knowing that S1 will be vulnerable until the Army returns, P1 asks Player 2 (P2) for reinforcements.
+Player 1 (P1) controls a Settlement (S1) and is considering making a large-scale attack against a Cthulhu Settlement (C1). There is another enemy faction nearby also warring with Cthulhu, the Leviathan Settlement (L1). P1 decides to send a Diplomat to attempt to convince L1 to attack C1. Because the two factions in question are at war, this has a better chance of success than it normally would. Unfortunately the Diplomat rolls poorly and returns at the start of the next turn without success, narrowly avoiding being killed. P1 decides to wait until the attack happens organically, sending a Spy to establish a Listening Post in that Settlement. When the attack is sent out, P1 is ready. In the intervening terms, P1 has spent a good chunk of Population and Wealth on recruiting a large Army. P1 spends half of their Readiness and throws in 10 Wealth to generate a massive Army unit to supplement the Army they've been constructing. P1 carefully lays a path between S1 and C1 so that the Army will arrive shortly after the L1 attack occurs. Knowing that S1 will be vulnerable until the Army returns, P1 asks Player 2 (P2) for reinforcements.
 
 #### Example Scenario: Upgrades, Crises, Secrets
 Player 1 (P1) controls a Settlement (S1) which is a Camp about to grow into a Collective. The Upgrade which will enable the transition from Camp to Collective (House) will cost 2 Building Materials and 20 Population worth of production for a full turn. On the turn P1 wanted to make this change, however, a Crisis occurs. 'Crop Failure' causes Farms to produce 2 less Food per turn for 2 turns if not dealt with. There are 2 Standard Options and 1 Special Option to deal with this problem.
@@ -95,11 +107,18 @@ Players take on the role of a town's ruling leadership and make decisions at eac
 
 ##### Secrets
 
-Secrets make the world go round. Spend secrets on the world map to reduce the difficulty of SpecOps missions, procure additional Settlement resources, or Sabotage enemy actions.
+Secrets make the world go round. Secrets are a global Resource unique to each Player. Secrets are fairly rare and quite powerful, usually allowing Players to affect the game world or other Players. Many of their uses are informational, but Secrets may also be used to generate resources, sabotage Improvements, etc. etc.
 
 
 #### Actions
+Actions spend Resources to affect change.
 
+
+##### Scouting
+
+##### Build
+
+#####
 
 ##### Enemy
 
@@ -110,6 +129,14 @@ Secrets make the world go round. Spend secrets on the world map to reduce the di
 #### Special Operatives
 
 ##### Missions
+Missions are categorized by these aspects:
+* Severity (int, 1-5) (# of "People Points" needed to address)
+* Danger (int, 0-100) (raw chance of SpecOp dying on failure)
+* Success (int, 0-100) (raw chance of SpecOp success)
+* SuccessEffect (list <Entity, Effect>) (effects which take place on successful completion)
+* FailureEffect (list <Entity, Effect>) (effects which take place on failure)
+* Type (enum) (type of mission, SpecOps have +/- to certain mission types)
+* RequiredUnit (list <Unit>) (units which are allowed to take on this mission)
 
 ###### Friendly
 
@@ -117,11 +144,11 @@ Secrets make the world go round. Spend secrets on the world map to reduce the di
 
 
 
-##### Proteges
+##### Protégés
 
-The new world is more dangerous and unforgiving than ever before. Death is a constant companion to the unwary, and even veteran adventurers may meet their end. The next generation is your best hope for a lasting legacy.
+The new world is more dangerous and unforgiving than ever before. Death stalks the unwary, and even veteran adventurers may meet their end. The next generation is your best hope for a lasting legacy.
 
-Players have the option to recruit a custom operative that their main character nurtures as a protege. On the event of player death, the player may choose to switch to their protege. At the DM's discretion, they may also switch out characters temporarily without either dying. The protege gets a bonus specific to the character who mentored them, determined by the DM in consultation with the player.
+Players have the option to recruit a custom operative that their main character nurtures as a protégé. On the event of player death, the player may choose to switch to their protégé. At the DM's discretion, they may also switch out characters temporarily without either dying. The protégé gets a bonus specific to the character who mentored them, determined by the DM in consultation with the player.
 
 
 ##### Arcanists
@@ -431,7 +458,7 @@ Example:
 *   Labor cost:
 *   Maintenance:
 *   Cycle effect:
-*   On build: Unlocks the Scouting ability. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.
+*   On build: Unlocks the Scouting Action. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.
 *   Tiers:
 *   Prerequisites:
 
@@ -580,40 +607,76 @@ Monstrosity can be decreased by:
 
 ### Abomination
 
-## Monsters
-
 
 ## Subclasses
 
 
-### Warlock Pact - The Great Dreamer
+### Warlock
 
 
-### Blood Hunter Order - Order of the Abomination
+#### Eldritch Pact
+
+
+### Blood Hunter
+
+
+#### Order of the Abomination
 Reskin/Tweak of Order of the Lycan
 
 
-### Eldritch Alchemist (Wizard)
+### Wizard
 
 
-### Doombringer (Barbarian)
+#### Eldritch Alchemist
 
 
-### Technomancer (Sorcerer)
+### Barbarian
 
 
-### Eldritch Shifter (Druid)
+#### Doombringer
 
 
-### Demagogue (Bard)
+### Sorcerer
 
 
-### Shadow Tinker (Rogue)
+#### Technomancer
 
 
-### Demonic Host (Ranger)
+### Druid
 
 
+#### Eldritch Shifter
+
+
+### Bard
+
+
+#### Demagogue
+
+
+### Rogue
+
+#### Shadow Tinker
+
+
+### Ranger
+
+
+#### Demonic Host
+
+
+### Fighter
+
+
+#### Wasteland Survivor
+
+
+### Cleric
+
+
+#### Eldritch Envoy
+
+## Monsters
 
 ## Locations
 

@@ -4,7 +4,7 @@
 #define GAME_H
 
 class Game {
-  const list <Improvement> allImprovements;
+  const std::list <Improvement> allImprovements;
 }
 
 // end of header guard

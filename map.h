@@ -2,9 +2,11 @@
 
 #ifndef MAP_H
 #define MAP_H
-
+#include "effect.h"
+#include "entity.h"
+#include "settlement.h"
 class Terrain {
-  list <Effect> effects;
+  std::list <Effect> effects;
   MovementCost movementCost;
   // functions
   void Effect(Entity &E);
@@ -18,14 +20,14 @@ class Edge;
 class Node {
   int X;
   int Y;
-  Entity <list> occupants;
+  Entity <std::list> occupants;
   int capacity;
-  list <Edge> edges;
+  std::list <Edge> edges;
   Terrain terrain;
   // function
   std::pair <int, int> GetLocation();
-  list <&Entity> GetOccupants();
-  list <&Edge> GetEdges();
+  std::list <&Entity> GetOccupants();
+  std::list <&Edge> GetEdges();
 };
 
 class Edge {
@@ -38,7 +40,7 @@ class Map {
   // variables
   int width;
   int height;
-  list <Settlement> settlements;
+  std::list <Settlement> settlements;
   // functions
 
 

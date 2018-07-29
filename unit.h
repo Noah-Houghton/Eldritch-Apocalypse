@@ -1,11 +1,12 @@
-#include "effect.h"
-#include "entity.h"
-#include "settlement.h"
-#include <list>
 // header guard
 
 #ifndef UNIT_H
 #define UNIT_H
+
+#include "effect.h"
+#include "entity.h"
+#include "settlement.h"
+#include <std::list>
 
 enum UnitType {ARMY = 0; TRADERS = 1};
 
@@ -13,7 +14,7 @@ class Unit : MovableEntity {
   // variables
   int size;
   int power;
-  list <Effect> townEffects;
+  std::list<Effect> townEffects;
   UnitType type;
   // functions
   void receiveEffect(Effect E);
@@ -27,9 +28,9 @@ class SpecOp : MovableEntity {
   SpecOpClass class;
   char* mentor;
   // effects on friendly factions
-  list <Effect> friendlyEffects;
+  std::list <Effect> friendlyEffects;
   // effects on enemy factions
-  list <Effect> enemyEffects;
+  std::list <Effect> enemyEffects;
   settlement currentHome;
   // functions
   SpecOpClass GetClass();

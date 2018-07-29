@@ -1,18 +1,18 @@
-#include "effect.h"
-#include "resource.h"
-#include <list>
 // header guard
 
 #ifndef IMPROVEMENT_H
 #define IMPROVEMENT_H
+#include "effect.h"
+#include "resource.h"
+#include <std::list>
 
 enum ImprovementType {FARM = 0};
 
 class Upgrade {
   // variables
   char* name;
-  list <Effect> effects;
-  list <Cost> costs;
+  std::list <Effect> effects;
+  std::list <Cost> costs;
   Faction faction;
   int timeToBuild;
   char* flavorText;
@@ -30,7 +30,7 @@ class Improvement {
   // variables
   char* flavorText;
   Faction faction;
-  list <Upgrade> upgrades;
+  std::list <Upgrade> upgrades;
   ImprovementType type;
   Tier currentTier;
   bool constructed;
@@ -42,7 +42,7 @@ class Improvement {
   void AddUpgrade(Upgrade &newUpgrade);
   void RemoveUpgrade(Upgrade &toRemove);
   void SetEffectActive(bool bIsActive);
-  list <Upgrade> AvailableImprovements();
+  std::list <Upgrade> AvailableImprovements();
 };
 
 
