@@ -5,14 +5,7 @@
 #include "effect.h"
 #include "entity.h"
 #include "settlement.h"
-class Terrain {
-  std::list <Effect> effects;
-  MovementCost movementCost;
-  // functions
-  void Effect(Entity &E);
-  private:
-    bool EffectOccurs(Entity &E, int probabilitySeed);
-};
+#include "terrain.h"
 
 // predefining so that we can give Edges Nodes & vice-versa
 class Edge;
@@ -23,7 +16,7 @@ class Node {
   Entity <std::list> occupants;
   int capacity;
   std::list <Edge> edges;
-  Terrain terrain;
+  NodeTerrain terrain;
   // function
   std::pair <int, int> GetLocation();
   std::list <&Entity> GetOccupants();
@@ -33,7 +26,7 @@ class Node {
 class Edge {
   const Node node1;
   const Node node2;
-  Terrain terrain;
+  EdgeTerrain terrain;
 };
 
 class Map {
