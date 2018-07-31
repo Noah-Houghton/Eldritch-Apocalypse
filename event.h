@@ -1,6 +1,5 @@
 #ifndef ENCOUNTER_H
 #define ENCOUNTER_H
-#include <list>
 #include "effect.h"
 
 
@@ -23,6 +22,10 @@ class Event {
   char* description;
   std::list <Action> responses;
   // functions
+
+};
+
+class Mission : Event {
 
 };
 

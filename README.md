@@ -656,7 +656,7 @@ Reskin/Tweak of Order of the Lycan
 
 ### Rogue
 
-#### Shadow Tinker
+#### Shadow Tinkerer
 
 
 ### Ranger

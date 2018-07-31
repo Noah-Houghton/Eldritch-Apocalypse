@@ -1,7 +1,6 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 #include "effect.h"
-#include <list>
 #include "map.h"
 
 class Entity {

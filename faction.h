@@ -1,16 +1,14 @@
 #ifndef FACTION_H
 #define FACTION_H
 
+enum Race { Human = 0; Orc = 1 };
+
 enum Alignment { Good = 0; Neutral = 1; Evil = 2 };
-
-// determines at a high level whether a faction is Player, NPC, or an Enemy faction
-enum Controller { Player = 0; NPC = 1; Enemy = 2 };
-
 
 class Faction {
 	char* name;
+	std::list<Race> races;
 	Alignment alignment;
-	Controller controller;
 	std::list<Faction&> alliedFactions;
 	std::list<Faction&> enemyFactions;
 };

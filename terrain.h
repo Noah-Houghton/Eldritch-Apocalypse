@@ -14,12 +14,20 @@ private:
 };
 
 class NodeTerrain {
+	// variables	
+	
 	// functions
+
 	void OnArrival(&Entity);
 };
 
 class EdgeTerrain {
+	// variables
+
+	bIsDifficult;
+	
 	// functions
+
 	void OnPass(&Entity);
 };
 

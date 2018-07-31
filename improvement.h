@@ -4,7 +4,6 @@
 #define IMPROVEMENT_H
 #include "effect.h"
 #include "resource.h"
-#include <std::list>
 
 enum ImprovementType {FARM = 0};
 

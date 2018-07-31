@@ -6,7 +6,6 @@
 #include "effect.h"
 #include "entity.h"
 #include "settlement.h"
-#include <std::list>
 
 enum UnitType {ARMY = 0; TRADERS = 1};
 
