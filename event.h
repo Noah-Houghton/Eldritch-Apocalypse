@@ -9,7 +9,6 @@ class Action {
   char* description;
   bool bIsNegative;
   std::list <Effect> effects;
-  std::list <Cost> costs;
   // functions
   void PerformAction(Entity &target);
   bool CanPerformAction(Entity &target);

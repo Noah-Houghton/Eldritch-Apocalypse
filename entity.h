@@ -23,13 +23,13 @@ class Entity {
 
 // defines movement paradigm for movable entities
 // land cannot go into water, water cannot go into air, air can pass all of them
-enum Movement { Land = 0; Water = 1; Air = 2 };
+enum MovementType { Land = 0; Water = 1; Air = 2 };
 
 class MovableEntity : Entity {
   // variables
 
   std::list <&Node> nodeHistory;
-  Movement movementType;
+  MovementType movementType;
   Node destination;
   Movement movement;
   bool bIgnoresTerrain;

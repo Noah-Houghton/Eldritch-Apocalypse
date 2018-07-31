@@ -20,7 +20,7 @@ class NodeTerrain : Terrain {
 	
 	// functions
 
-	void OnArrival(&Entity);
+	void OnArrival(Entity&);
 };
 
 class EdgeTerrain : Terrain {
@@ -33,7 +33,8 @@ class EdgeTerrain : Terrain {
 	
 	// functions
 
-	void OnPass(&Entity);
+	void OnPass(Entity&);
+	bool CanPass(Entity&);
 };
 
 #endif

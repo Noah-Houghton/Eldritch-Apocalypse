@@ -11,7 +11,6 @@ class Upgrade {
   // variables
   char* name;
   std::list <Effect> effects;
-  std::list <Cost> costs;
   Faction faction;
   int timeToBuild;
   char* flavorText;
@@ -25,6 +24,8 @@ private:
   bool canPay(const Resource &SettlementResources);
 };
 
+
+// TODO: see if this should be refactored in light of Ability paradigm
 class Improvement {
   // variables
   char* flavorText;

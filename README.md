@@ -491,6 +491,10 @@ Water is the lifeblood of a Settlement. Without a steady supply of water, commun
 
 Water is an integer value. One point of water will slake the thirst of 10 Population for one Cycle. Settlements can build up Water stockpiles up to a ceiling equal to the current Population / 4 (can be raised by Improvements).
 
+##### Power
+
+Electrical things require Power to run.
+
 
 ##### Population
 
@@ -557,12 +561,19 @@ Readiness is a percentage value from 0% to 100%. Readiness is reduced by 1% for 
 Readiness can be increased by assigning Population to tasks or by player action. Certain SpecOp missions will also cause Readiness to increase or decrease. Readiness decreases at a steady rate down to a floor determined by the individual Settlement. This rate of decay can be lessened by certain Improvements.
 
 
-#### Defense
+##### Defense
 Defense is a measure of a Settlement's passive ability to defend itself - fortifications, preparation, etc. This number is added to a Settlement's Readiness when calculating the outcome of defending an attack.
+
 
 
 ### Firearms
 
+#### Overview
+
+
+### Electricity
+
+#### Overview
 
 ### Monstrosity
 

@@ -5,7 +5,19 @@
 
 #include "settlement.h"
 #include "entity.h"
+#include "resource.h"
 #include <list>
+
+class Cost {
+	// variables
+	// list of resource objects denoting type and amount of resource needed to perform action
+	std::list <Resource> cost;
+	// functions
+
+	void SetCost(std::list <Resource> newCost);
+	bool bCanAfford(Entity &E);
+	std::list <Resource> DisplayCost();
+};
 
 class Effect {
   // variables
@@ -13,6 +25,7 @@ class Effect {
   bool bIsStackable;
   char* name;
   Entity& target;
+  Cost cost;
 
   // functions
 
@@ -23,7 +36,7 @@ class Reputation : Effect {
   // functions
 
   bool remainsValid(const Entity &E);
-}
+};
 
 class SemipermanentEffect : Effect {
   private:
@@ -35,21 +48,6 @@ class SemipermanentEffect : Effect {
 class TempEffect : Effect {
   private:
      int duration;
-};
-
-class Cost : Effect {
-  // variables
-
-  std::list <Resource> cost;
-  // functions
-
-  void SetCost(std::list <Resource> newCost);
-  bool bCanAfford(Entity &E);
-  std::list <Resource> DisplayCost();
-};
-
-class MovementCost : Cost {
-
 };
 
 

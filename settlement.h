@@ -14,6 +14,7 @@ enum SettlementType {CAMP = 0; COLLECTIVE = 1};
 class Settlement : Entity {
   // variables
 
+  std::list <SettlementAbility> abilities;
   std::list <Unit> units;
   std::list <Effect> effects;
   std::list <Reputation> reputation;
