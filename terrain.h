@@ -3,6 +3,8 @@
 #include "effect.h"
 #include "entity.h"
 
+// defines types of terrain and associated properties
+
 class Terrain {
 	std::list <Effect> effects;
 	MovementCost movementCost;
@@ -13,7 +15,7 @@ private:
 	bool EffectOccurs(Entity &E, int probabilitySeed);
 };
 
-class NodeTerrain {
+class NodeTerrain : Terrain {
 	// variables	
 	
 	// functions
@@ -21,10 +23,13 @@ class NodeTerrain {
 	void OnArrival(&Entity);
 };
 
-class EdgeTerrain {
+class EdgeTerrain : Terrain {
 	// variables
 
-	bIsDifficult;
+	bIsImpassible;
+	bAirOnly;
+	bWaterOnly;
+	bLandOnly;
 	
 	// functions
 

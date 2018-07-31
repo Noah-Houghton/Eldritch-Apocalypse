@@ -13,19 +13,19 @@ class Edge;
 class Node {
   int X;
   int Y;
-  Entity <std::list> occupants;
+  std::list<Entity&> occupants;
   int capacity;
-  std::list <Edge> edges;
+  std::list <const Edge&> edges;
   NodeTerrain terrain;
   // function
   std::pair <int, int> GetLocation();
-  std::list <&Entity> GetOccupants();
-  std::list <&Edge> GetEdges();
+  std::list <Entity&> GetOccupants();
+  std::list <Edge&> GetEdges();
 };
 
 class Edge {
-  const Node node1;
-  const Node node2;
+  const Node& node1;
+  const Node& node2;
   EdgeTerrain terrain;
 };
 

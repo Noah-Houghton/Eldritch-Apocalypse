@@ -33,19 +33,17 @@
 
 This ruleset is designed with two major goals in mind:
 
-
-
 1.  To create a world which allows the standard D&D ruleset to be set in a post-modern setting;
 1.  To add a number of custom mechanics to the game to enhance the depth of the player experience.
 
 ## Summary of Changes
 
-* Custom modern setting
+* Custom post-apocalyptic gritty fantasy setting
 * Adds a Grand Strategy layer to the game
-  * Computer program to help manage this process
-* Monstrosity
+  * Computer program to help DM and player manage the world map
+* Monstrosity mechanic
 * Rules for modern firearms
-* Races, Subclasses, and Monsters designed to make use of Modern and Eldritch setting
+* Races, Subclasses, and Monsters designed to make use of the Modern and Eldritch setting
 
 
 ## Mechanics
@@ -55,7 +53,7 @@ This ruleset is designed with two major goals in mind:
 
 
 #### Example Scenario: Units, Readiness, War
-Player 1 (P1) controls a Settlement (S1) and is considering making a large-scale attack against a Cthulhu Settlement (C1). There is another enemy faction nearby also warring with Cthulhu, the Leviathan Settlement (L1). P1 decides to send a Diplomat to attempt to convince L1 to attack C1. Because the two factions in question are at war, this has a better chance of success than it normally would. Unfortunately the Diplomat rolls poorly and returns at the start of the next turn without success, narrowly avoiding being killed. P1 decides to wait until the attack happens organically, sending a Spy to establish a Listening Post in that Settlement. When the attack is sent out, P1 is ready. In the intervening terms, P1 has spent a good chunk of Population and Wealth on recruiting a large Army. P1 spends half of their Readiness and throws in 10 Wealth to generate a massive Army unit to supplement the Army they've been constructing. P1 carefully lays a path between S1 and C1 so that the Army will arrive shortly after the L1 attack occurs. Knowing that S1 will be vulnerable until the Army returns, P1 asks Player 2 (P2) for reinforcements.
+Player 1 (P1) controls a Settlement (S1) and is considering making a large-scale attack against a Cthulhu Settlement (C1). There is another enemy faction nearby also warring with Cthulhu, the Leviathan Settlement (L1). P1 decides to send a Diplomat to attempt to convince L1 to attack C1. Because the two factions in question are at war, this has a better chance of success than it normally would. Unfortunately the Diplomat rolls poorly and returns at the start of the next turn without success, narrowly avoiding being killed. P1 decides to wait until the attack happens organically, sending a Spy to establish a Listening Post in that Settlement. When the attack is sent out, P1 is ready. In the intervening turns, P1 has spent a good chunk of Population and Wealth on recruiting a large Army. P1 spends half of their Readiness and throws in 10 Wealth to generate a massive Army unit to supplement the Army they've been constructing. P1 carefully lays a path between S1 and C1 so that the Army will arrive shortly after the L1 attack occurs. Knowing that S1 will be vulnerable until the Army returns, P1 asks Player 2 (P2) for reinforcements.
 
 #### Example Scenario: Upgrades, Crises, Secrets
 Player 1 (P1) controls a Settlement (S1) which is a Camp about to grow into a Collective. The Upgrade which will enable the transition from Camp to Collective (House) will cost 2 Building Materials and 20 Population worth of production for a full turn. On the turn P1 wanted to make this change, however, a Crisis occurs. 'Crop Failure' causes Farms to produce 2 less Food per turn for 2 turns if not dealt with. There are 2 Standard Options and 1 Special Option to deal with this problem.
@@ -76,18 +74,19 @@ The Grand Strategy mechanics are designed to give players a sense of the larger 
 
 Players take on the role of a town's ruling leadership and make decisions at each Cycle (a length of time at the discretion of the DM). Each Cycle takes the following structure:
 
-1.  Resolve last Cycle's longterm projects
-    1.  Buildings are constructed, resources are generated, troop movements / battles are resolved, etc.
+
 1.  Enemy Cycle is resolved
     1.  Missions completed, troops moved, etc etc.
     1.  Enemy turn
         1.  The enemy factions each take their actions based on their level of Secrets. If an Enemy has a high Secrets level, they may make more informed decisions up to and including active sabotage of SpecOp missions.
-        1.  Enemy actions include:
+        1.  Enemy Actions include:
             1.  Fortify
             1.  Expand
             1.  Attack
             1.  Sabotage
             1.  Gather Secrets
+1.  Resolve last Cycle's player Actions
+    1.  Buildings are constructed, resources are generated, troop movements / battles are resolved, etc.
 1.  Players make decisions about how to allocate resources
     1.  Can choose between a variety of buildings/improvements to construct, recruit add'l people, scavenge for food, etc.
     1.  Occasionally there will be a Crisis; this can either be addressed by spending the appropriate amount of a given resource to cull its negative effects or allowed to resolve at detriment to the settlement. Some Crises may also be handled by deploying SpecOps with the necessary skills to handle the Crisis.
