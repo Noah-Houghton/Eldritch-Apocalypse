@@ -22,7 +22,8 @@ class Resource {
 };
 
 class Movement : Resource {
-
+	bool bIsMoving;
+	Node destination;
 }
 
 // end of header guard

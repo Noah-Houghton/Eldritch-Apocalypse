@@ -8,17 +8,19 @@ class Entity {
   // variables
 
   char* name;
-  Node loc;
+  Node location;
   std::list <Effect> effects;
   // functions
 
-  void DoEffects();
+  void ProcessEffects();
   void AddEffect(Effect &newEffect);
   void RemoveEffect(Effect &toRemove);
   char* GetName();
   void SetName (char* newName);
   Node GetCurrentNode();
   void SetNode(Node newNode);
+  // default constructor
+  Entity(char* name, Node location, std::list<Effect> startingEffects);
 };
 
 // defines movement paradigm for movable entities
@@ -30,7 +32,6 @@ class MovableEntity : Entity {
 
   std::list <&Node> nodeHistory;
   MovementType movementType;
-  Node destination;
   Movement movement;
   bool bIgnoresTerrain;
   // determines whether this unit can move between land and water or not
@@ -43,6 +44,10 @@ class MovableEntity : Entity {
   std::list<Node&> GetLocationHistory();
   void AddToHistory(Node newHistory);
   void ClearHistory();
+
+  // constructor
+
+  MovableEntity(char* name, Node location, std::list<Effect> startingEffects, MovementType move, bool ignoreTerrain, bool amphib);
 
   // pathfinding operations
 

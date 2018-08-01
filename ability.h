@@ -2,18 +2,16 @@
 #define ABILITY_H
 
 #include "effect.h"
+#include "entity.h"
 
 class ActiveAbility {
 	// variables
 	std::list<Effect> effects;
 	// number of turns in between usages
 	int cooldown;
-	// number of targets per effect (e.g. force one Settlement to attack another)
-	int numTargets;
 
 	// functions
 
-	void doAbility(Entity&);
 
 };
 
@@ -24,7 +22,7 @@ class SettlementAbility : ActiveAbility {
 
 	// functions
 
-	bool canPerform(Settlement&);
+	bool canPerform(Settlement& S);
 };
 
 class UnitAbility : ActiveAbility {

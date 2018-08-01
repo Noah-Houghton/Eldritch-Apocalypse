@@ -10,12 +10,17 @@
 
 enum UnitType {ARMY = 0; TRADERS = 1};
 
+enum SizeType { Small = 0; Medium = 1; Large = 2; Giant = 3 };
+
 class Unit : MovableEntity {
   // variables
 
-  int size;
+  SizeType size;
   int power;
-  std::list<Effect> townEffects;
+  // passive effects on friendly factions
+  std::list <Effect> friendlyEffects;
+  // passive effects on enemy factions
+  std::list <Effect> enemyEffects;
   UnitType type;
   // active abilities, if any
   std::list<UnitAbility> abilities;
@@ -24,28 +29,30 @@ class Unit : MovableEntity {
   // functions
 
   void receiveEffect(Effect E);
+
+  // constructor
+  Unit(char* name, MovementType move, bool ignoreTerrain, bool amphib, SizeType size, int power, std::list<Effect> friendFX, std::list<Effect> enemyFX, UnitType type, std::list<UnitAbility> startingAbilities, bool hidden);
 };
 
-enum SpecOpClass {SABOTEUR = 0; ARCANIST = 1};
+enum SpecOpType {SABOTEUR = 0; ARCANIST = 1};
 
 
 // draft of SpecOp as unit instead of as resource
-class SpecOp : MovableEntity {
+class SpecOp : Unit {
   // variables
-  SpecOpClass class;
+  SpecOpType specOpType;
   char* mentor;
 
-  // passive effects on friendly factions
-  std::list <Effect> friendlyEffects;
-  // passive effects on enemy factions
-  std::list <Effect> enemyEffects;
-  settlement currentHome;
+  Settlement& currentHome;
   // functions
 
   SpecOpClass GetClass();
   void SetClass(SpecOpClass newClass);
   settlement GetHome();
   void SetHome(newSettlement);
+
+  // constructor
+  SpecOp(char* n, Node loc, std::list<Effect> s, MovementType move, bool ignoreTerrain, bool amphib, int p, std::list<Effect> friendFX, std::list<Effect> enemyFX, UnitType t, std::list<UnitAbility> startingAbilities, bool hidden, SpecOpType st, char* m, Settlement& startHome);
 
 };
 

@@ -14,35 +14,44 @@ class Cost {
 	std::list <Resource> cost;
 	// functions
 
+	std::list<Resource> GetCost();
 	void SetCost(std::list <Resource> newCost);
-	bool bCanAfford(Entity &E);
-	std::list <Resource> DisplayCost();
+	bool CanAfford(Entity &E);
+	bool bIsInstant;
 };
 
 class Effect {
   // variables
 
   bool bIsStackable;
+  bool bIsInstant;
   char* name;
-  Entity& target;
-  Cost cost;
 
   // functions
 
-  void Effect(Entity &E);
 };
 
-class Reputation : Effect {
-  // functions
+class SingleTargetEffect : Effect {
+	void Effect(Entity& E);
+};
 
-  bool remainsValid(const Entity &E);
+class MultiTargetEffect : Effect {
+	void Effect(list<Entity&> E);
+};
+
+class CostlyEffect : Effect {
+	Cost cost;
 };
 
 class SemipermanentEffect : Effect {
-  private:
-    // functions
+	// variables
 
-    bool IsSatisifed(const Entity &E);
+	bool bRemove;
+    
+	// functions
+
+	// while RemainsValid() returns true, do not remove this Effect
+    bool RemainsValid(const Entity &E);
 };
 
 class TempEffect : Effect {
