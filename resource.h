@@ -9,7 +9,7 @@ class Resource {
   // variables
   int max;
   int amount;
-  bool bIsCapped;
+  bool bRespectMax;
   Effect zeroEffect;
   Effect overflowEffect;
   // functions

@@ -1,51 +1,53 @@
 # Application Specs
 
-## Resources
+| -- Application  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Map  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Terrain  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Node  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Edge  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Gamemode  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Game  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Entity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Player  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Abilities  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Faction  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Goal  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Settlement ownership  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Settlement  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Abilities  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Resources  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Improvements  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- Units
 
-Resources.py contains the code necessary to build the resources loaded into the full application.
-Resources have:
-* a name
-* a maximum value
-* a current value
-* a passive change value
+## Ability.h
 
-Resources include:
-* population
-* food
-* water
-* building materials
-* arcane materials
-* wealth
-* influence
-* prestige
-* despair
-* loyalty
-* readiness
 
-## Settlements
+## Effect.h
 
-Settlements.py contains all code which define Settlements, their actions, and interactions between them.
 
-Settlements have:
-* a name
-* an x/y location on the world map
-* a set of resources
-* a z difficulty (e.g. rough terrain, special equipment needed, etc)
-* an affinity (player/enemy/neutral)
-* reputation(s)
+## Entity.h
 
-## Improvements
 
-Improvements.py contains all code defining buildings and other upgrades which can be purchased by Settlements.
+## Event.h
 
-Improvements have:
-* a name
-* flavor text
-* a description
-* a build cost
-* a labor cost (with x turn duration)
-* a build effect
-* a passive effect
-* prerequisites
-* upgrades
-* a maintenance cost
+
+## Faction.h
+
+
+## Game.h
+
+
+## Improvement.h
+
+
+## Map.h
+
+
+## Resource.h
+
+
+## Settlement.h
+
+
+## Terrain.h
+
