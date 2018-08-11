@@ -25,6 +25,8 @@ class Effect {
 
   bool bIsStackable;
   bool bIsInstant;
+  bool bIsFriendly;
+  bool bIsActive;
   char* name;
 
   // functions

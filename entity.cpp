@@ -1,17 +1,23 @@
 #include "entity.h"
 
-Entity::Entity(char* n, Node loc, std::list<Effect> s)
+Entity::Entity(char* entityName, Node entityLocation, std::list<Effect> startingEffects)
 {
-	name = n;
-	location = loc;
-	effects = s;
+	name = entityName;
+	location = entityLocation;
+	effects = startingEffects;
 }
 
-MovableEntity::MovableEntity(char* n, Node loc, std::list<Effect> s, MovementType move, bool ignoreTerrain, bool amphib) : Entity(n, loc, s)
+UnitClass::UnitClass(char* uName, EntityType uType, std::list<Effect> uPassiveEffects, std::list<ActiveAbility> uAbilities, Attributes attr)
 {
-	// param inputs
-	name = n;
-	movement = move;
-	bIgnoresTerrain = ignoreTerrain;
-	bIsAmphibious = amphib;
+	name = uName;
+	type = uType;
+	passiveEffects = uPassiveEffects;
+	abilities = uAbilities;
+	attributes = attr;
 }
+
+std::list<ActiveAbility> warriorAbilities;
+std::list<Effect> warriorEffects;
+Attributes warriorAttributes;
+
+UnitClass Warrior = UnitClass("Warrior", Military, warriorEffects, warriorAbilities, warriorAttributes);

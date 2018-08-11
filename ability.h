@@ -7,7 +7,7 @@
 class ActiveAbility {
 	// variables
 
-	std::list<Effect> effects;
+	std::list<Effect&> effects;
 	// number of turns in between usages
 	int cooldown;
 
