@@ -1,7 +1,7 @@
 #include "unit.h"
 
-Unit::Unit(char* n, Node loc, std::list<Effect> s, MovementType move, bool ignoreTerrain, bool amphib, SizeType s, int p, std::list<Effect> friendFX, std::list<Effect> enemyFX, UnitType t, std::list<UnitAbility> startingAbilities, bool hidden) : MovableEntity(n, loc, s, m, ignoreTerrain, amphib) {
-	size = s;
+Unit::Unit(char* n, Node loc, std::list<Effect> s, MovementType move, bool ignoreTerrain, bool amphib, SizeType size, int p, std::list<Effect> friendFX, std::list<Effect> enemyFX, UnitType t, std::list<UnitAbility> startingAbilities, bool hidden) : MovableEntity(n, loc, s, m, ignoreTerrain, amphib) {
+	size = size;
 	power = p;
 	friendlyEffects = friendFX;
 	enemyEffects = enemyFX;

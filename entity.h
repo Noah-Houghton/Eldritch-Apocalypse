@@ -23,19 +23,26 @@ class Entity {
   Entity(char* name, Node location, std::list<Effect> startingEffects);
 };
 
-// defines movement paradigm for movable entities
-// land cannot go into water, water cannot go into air, air can pass all of them
-enum MovementType { Land = 0; Water = 1; Air = 2 };
+// at a high level, the role of the unit
+enum UnitType { Army = 0, Economic = 1, Diplomacy = 2 };
+
+enum Size { Small = 0, Medium = 1, Large = 2, Giant = 3 };
 
 class MovableEntity : Entity {
   // variables
 
-  std::list <&Node> nodeHistory;
-  MovementType movementType;
+  std::list <Node&> nodeHistory;
   Movement movement;
-  bool bIgnoresTerrain;
-  // determines whether this unit can move between land and water or not
-  bool bIsAmphibious;
+  Size size;
+  int power;
+  // passive effects on friendly factions
+  std::list <Effect> friendlyEffects;
+  // passive effects on enemy factions
+  std::list <Effect> enemyEffects;
+  UnitType type;
+  // active abilities, if any
+  std::list<UnitAbility> abilities;
+  bool bIsHidden;
 
   // functions
 
@@ -47,12 +54,12 @@ class MovableEntity : Entity {
 
   // constructor
 
-  MovableEntity(char* name, Node location, std::list<Effect> startingEffects, MovementType move, bool ignoreTerrain, bool amphib);
+  MovableEntity(char* name, Node location, std::list<Effect> startingEffects, Movement move, Size size, int power, std::list <Effect> friendlyFX, std::list <Effect> enemyFX, UnitType type, std::list <UnitAbility> abilities, bool bIsHidden);
 
   // pathfinding operations
 
   static std::list <Edge&> findPath(Node A, Node B);
-  std::list <&Edge> GetPath(std::list <Node&> nodes);
+  std::list <Edge&> GetPath(std::list <Node&> nodes);
 };
 
 #endif

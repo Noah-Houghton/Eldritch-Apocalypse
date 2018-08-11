@@ -6,12 +6,16 @@
 
 class ActiveAbility {
 	// variables
+
 	std::list<Effect> effects;
 	// number of turns in between usages
 	int cooldown;
 
-	// functions
+	std::list<Entity&> validTargets;
+	// effects which the ability causes to the entity which calls it, if any
+	std::list<Effect&> selfEffects;
 
+	// functions
 
 };
 
@@ -23,17 +27,6 @@ class SettlementAbility : ActiveAbility {
 	// functions
 
 	bool canPerform(Settlement& S);
-};
-
-class UnitAbility : ActiveAbility {
-	// variables
-
-	std::list<Entity&> validTargets;
-	// effects which the ability causes to the unit, if any
-	std::list<Effect&> selfEffects
-	// functions
-
-	bool canPerform(Unit&);
 };
 
 #endif
