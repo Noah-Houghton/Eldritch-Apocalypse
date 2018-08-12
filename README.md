@@ -46,6 +46,48 @@ This ruleset is designed with two major goals in mind:
 * Races, Subclasses, and Monsters designed to make use of the Modern and Eldritch setting
 
 
+## Setting Description
+*Shadows dance in the alleyways, a strangely viscous consistency to their movements. Small, skittering horrors creep along the ceilings, frightening children and filling the air with their chittering calls. Bands of cultist marauders stalk the streets, having abandoned their own kind in favor of a new, more terrible overlord. This is Boston 30--, a thousand years after the Awakening.*
+
+*Not so far from today, magic was reawakened in the world. Eldritch horrors long sleeping awoke, and with their reemergence came an explosion of magical energy. Humanity was transformed -- some of them literally. Certain bloodlines, their Eldritch past long forgotten, woke to a transformed existence. The Eldritch calling boils in their blood, and their bodies warped and changed into different magical races.*
+
+*Even those whose bodies remained unchanged were not left entirely whole. Those who were particularly magically sensitive developed strange new abilities which we might call magic. Some used these powers for good, and others for evil. Before society could fully adapt to these changes, the Invasion began.*
+
+*It started with small things. People reported strange sounds down alleyways, sightings of moving shadows in the daylight. Then, people started to go missing, swallowed up by the darkness of untold horrors. We ignored these warnings for what they were, and continued to bicker amongst ourselves like spoiled children. We should have known it was going to get worse.*
+
+*Comets began to land, all around the world, harbingers of our destruction. These strange new metals seemed to shift between realities, emitting an entirely new kind of energy. Wherever they landed, a stream of dark horrors streamed forth, an incessant wave of true terror. It was over in days, but lasted much longer.*
+
+*All organized resistance quickly crumbled before the repeated and powerful assaults of the Eldritch horde. Even as reports began to trickle in, tall tales of ordinary men and women turned into monstrous things, we were forced beneath the streets. Concealed by the same shadows which were once the devilish highway of our adversaries, we waited, and rebuilt what we could. In time, scouts sent to the surface began to return unmenaced, and we began to believe the world above could be ours once again. The Outer Gods returned to their slumber; we must take this chance to reclaim a foothold above, and drive what horrors remain back to their unholy residence.*
+
+
+### PLAYER NOTES
+
+
+### GM NOTES
+
+
+### The World
+The world before the Awakening is called the Old World
+
+#### The Timeline
+- 2008 first signs of Eldritch happenings
+- 2024 people begin to disappear
+- 2030 comets begin falling; magic awakens
+- 2034 Eldritch entities begin attacking population centers
+- 2031 all major resistance has fallen
+- 2070 Eldritch activity becomes less prevalent; isolated pockets of communities begin to retake parts of the surface
+- 2304 Eldritch activity is largely restricted to pockets where entities have taken up residence; large communities begin to form
+- 2730 resurgence of activity; majority of large communities reduced to rubble
+- 2893 last living person to remember the Awakening perishes
+- 2996 Alwif, large settlement along the T line, mysteriously goes silent
+- 3005 Gambino takes control of large swathes of downtown Boston
+- 301- Our story begins in the small, largely underground settlement of Ha'var
+
+#### The MBTA
+
+#### Major Landmarks
+
+
 ## Mechanics
 
 
@@ -150,20 +192,19 @@ The new world is more dangerous and unforgiving than ever before. Death stalks t
 Players have the option to recruit a custom operative that their main character nurtures as a protégé. On the event of player death, the player may choose to switch to their protégé. At the DM's discretion, they may also switch out characters temporarily without either dying. The protégé gets a bonus specific to the character who mentored them, determined by the DM in consultation with the player.
 
 
-##### Arcanists
 
+| Type     | Description                                                                                                                                                                                                                                                                                                                                                     | Classes                   | Mission Specialties           | Settlement Abilities                     | Active Abilities  |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-------------------------------|------------------------------------------|-------------------|
+| Arcanist | Skilled in the usage and manufacture of magical things, Arcanists are the technological backbone of an army or settlement. As useful on the battlefield as off of it, the Arcanist can be deployed to solve magical or otherworldly problems. Their abilities tend to focus on generating and expending Arcane Materials in exchange for a variety of benefits. | Wizard, Sorcerer, Warlock | Arcane, Eldritch, Extraplanar | Gather Arcane Materials; Study the Stars | Arcane Detection; |
+| Soldier  |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
+| Merchant |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
+| Diplomat |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
+| Spy      |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
+|          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
+|          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 
-##### Soldiers
-
-
-##### Merchants
-
-
-##### Diplomats
-
-
-##### Spies
-
+| Ability Name | Description | Cost |
+|--------------|-------------|------|
 
 #### Units
 
@@ -183,87 +224,36 @@ Settlements are typically categorized by their population level. Each category h
 
 ##### Camp
 
-Population: 20-99 (4d20 + 10)
-
-Wealth: 1d4
-
-Prestige: 1d6
-
-Influence: 1d10
-
-Despair: 1d4-1
-
-Loyalty: 4d20
-
-Readiness: 2d20
+| Population        | Wealth | Prestige | Influence | Despair | Loyalty | Readiness |
+|-------------------|--------|----------|-----------|---------|---------|-----------|
+| 20-99 (4d20 + 10) | 1d4    | 1d6      | 1d10      | 1d4-1   | 4d20    | 2d20      |
 
 
 ##### Collective
-
-Population: 100-199 (8d20 + 15)
-
-Wealth: 2d6
-
-Prestige: 1d8
-
-Influence: 1d10 + 1d4
-
-Despair: 1d4-1
-
-Loyalty: 4d20
-
-Readiness: 2d20+5
+| Population          | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
+|---------------------|--------|----------|------------|---------|---------|-----------|
+| 100-199 (8d20 + 15) | 2d6    | 1d8      | 1d10 + 1d4 | 1d4-1   | 4d20    | 2d20 + 5  |
 
 
 ##### Village
 
-Population: 200-499
-
-Wealth: 2d8
-
-Prestige: 1d10
-
-Influence: 1d10 + 1d6
-
-Despair: 1d4-1
-
-Loyalty: 4d20
-
-Readiness: 2d20+10
+| Population | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
+|------------|--------|----------|------------|---------|---------|-----------|
+| 200-499    | 2d8    | 1d10     | 1d10 + 1d6 | 1d4-1   | 4d20    | 2d20 + 10 |
 
 
 ##### Town
 
-Population: 500-1000
-
-Wealth: 3d6 + 2
-
-Prestige: 1d12
-
-Influence: 1d10 + 1d8
-
-Despair: 1d4-1
-
-Loyalty: 4d20
-
-Readiness: 2d20+10
+| Population | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
+|------------|--------|----------|------------|---------|---------|-----------|
+| 500-999    | 3d6+2  | 1d12     | 1d10 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
 
 
 ##### City
 
-Population:1001-2500+
-
-Wealth: 4d8
-
-Prestige: 1d12 + 1d6
-
-Influence: 1d12 + 1d8
-
-Despair: 1d4-1
-
-Loyalty: 4d20
-
-Readiness: 2d20+10
+| Population | Wealth | Prestige   | Influence  | Despair | Loyalty | Readiness |
+|------------|--------|------------|------------|---------|---------|-----------|
+| 1000-2500+ | 4d8    | 1d12 + 1d6 | 1d12 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
 
 
 #### Reputation
@@ -279,200 +269,22 @@ Example:
 
 #### Improvements
 
-
-##### Farm
-
-
-
-*   Build cost: (1x Building Level) Building Material
-*   Labor cost: 10 Population
-*   Maintenance: 1x Water
-*   Cycle effect: +2 Food, -1 Water
-*   On build: Increases Wealth and Prestige by 1
-*   Tiers: Food/Cycle increases by 1 every Tier
-*   Prerequisites:
-
-
-##### Scouting Outpost
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Defensive Walls
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Central Plumbing
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Water Purification Tower
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Cistern
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build: Increases water storage by 2d20
-*   Tiers:
-*   Prerequisites:
-
-
-##### Watchtower
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Tavern
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Marketplace
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Radio Tower
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Tavern
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Theater
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Barracks
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build:
-*   Tiers:
-*   Prerequisites:
-
-
-##### Ranger's Huts
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect:
-*   On build: Unlocks the Scouting Action. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.
-*   Tiers:
-*   Prerequisites:
-
-
-##### Stables
-
-
-
-*   Build cost:
-*   Labor cost:
-*   Maintenance:
-*   Cycle effect: Players can choose to spend readiness to patrol roads which will greatly reduce the possibility of misfortune during travel and facilitate trade to any cities reached by the patrol. For each 1% of readiness spent, a mile of road can be patrolled.
-*   On build: Permanent +1 to Scouting speed.
-*   Tiers:
-*   Prerequisites:
+| Name                     | Build Cost                            | Labor Cost    | Maintenance | Cycle Effect      | On build                                                                                                                                                                                                                                               | Tiers                                | Prerequisites |
+|--------------------------|---------------------------------------|---------------|-------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|---------------|
+| Farm                     | (1x Building Level) Building Material | 10 Population | 1x Water    | +2 Food, -1 Water | Increases Wealth and Prestige by 1                                                                                                                                                                                                                     | Food/Cycle increases by 1 every Tier | None          |
+| Scouting Outpost         |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Defensive Walls          |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Central Plumbing         |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Water Purification Tower |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Cistern                  |                                       |               |             |                   | Increases water storage by 2d20                                                                                                                                                                                                                        |                                      |               |
+| Watchtower               |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Tavern                   |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Marketplace              |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Radio Tower              |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Theater                  |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Barracks                 |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
+| Ranger's Village         |                                       |               |             |                   | Unlocks the Scouting Action. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.                                   |                                      |               |
+| Stables                  |                                       |               |             |                   | Players can choose to spend readiness to patrol roads which will greatly reduce the possibility of misfortune during travel and facilitate trade to any cities reached by the patrol. For each 1% of readiness spent, a mile of road can be patrolled. | Permanent +1 to Scouting speed.      |               |
 
 
 #### Resources
@@ -526,7 +338,7 @@ For reference, wealth is about 1/10 of a Settlement's wealth in GP. So a Settlem
 
 ##### Prestige
 
-Prestige measures how well-known the Settlement is. A highly Prestigious Settlement will attract more Population, increase in Wealth more quickly, and draw more powerful SpecOps to the area - but will also increase the Readiness threshold required to guard against attacks.
+Prestige measures how well-known the Settlement is. A highly Prestigious Settlement will attract more Population, increase in Wealth more quickly, and draw more powerful SpecOps to the area for recruitment - but will also increase the chance that bandits will attack.
 
 A Prestigious Settlement has around 70 Prestige. An unprestigious Settlement has around 10 Prestige.
 
@@ -540,7 +352,7 @@ An Influential Settlement has about 70 Influence. A less Influential Settlement 
 
 ##### Despair
 
-When the shambling forces of madness have come into the world from a slumber of aeons, there can be no question of hope, only despair. Despair measures the grip of madness on the colony, and directly influences almost everything about a settlement's operation. For each level of Despair up to five, Readiness drops by 5% and Loyalty by 2%. Every time Despair increases there is a chance for a Crisis to occur; every time it drops there is a chance for a Boon to occur. Certain buildings and improvements are unlocked / only operate at certain levels of Despair. Despair can be reduced by Diplomatic missions, purchasing luxury goods, or by successful defense. Despair is increased by successful enemy attacks, food shortages, or world events.
+When the shambling forces of madness have come into the world from a slumber of aeons, there can be no question of hope, only despair. Despair measures the grip of madness on the colony, and directly influences almost everything about a settlement's operation. For each level of Despair up to five, Readiness drops by 5% and Loyalty by 2%. Every time Despair increases there is a chance for a Crisis to occur; every time it drops there is a chance for a Respite to occur. Certain buildings and improvements are unlocked / only operate at certain levels of Despair. Despair can be reduced by Diplomatic missions, purchasing luxury goods, or by successful defense. Despair is increased by successful enemy attacks, food shortages, or world events.
 
 Despair scales linearly from 0 to 5. A Desperate Settlement is at 5; a Hopeful Settlement is at 0.
 
@@ -612,11 +424,63 @@ Monstrosity can be decreased by:
 *   Certain magical items
 *   Brewed remedies
 
+## Ruler Archetypes
+As you gain power and influence, you will start to be able to affect change in the settlements you rule. Starting at 5th level, you may choose one of these Ruler archetypes, each of which has specific benefits and drawbacks to fit your playstyle.
+
+### Despot
+
+### Monarch
+
+### Populist
+
+### Traditionalist
+
+### Zealot
+
+### Democrat
+
 ## Races
 
 
 ### Abomination
 
+
+### Saerun
+
+
+## Feats
+
+### Combat
+
+Name | Description | Prerequisites
+-----|-------------|--------------
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+
+### Noncombat
+
+Name | Description | Prerequisites
+-----|-------------|--------------
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
+     |             |
 
 ## Subclasses
 
@@ -667,12 +531,82 @@ Reskin/Tweak of Order of the Lycan
 ### Rogue
 
 #### Shadow Tinkerer
+- variant of arcane trickster  
 
+##### Flavor
+*"Most folks," Arn-Tholn began, twirling a grease-blackened wrench around one long, elvish finger, "don't think too hard about what goes into what they use." Deft hands worked faster than she spoke, pushing tiny metal bits into exactly the right place. Cover, secure, test. A little to the left. Orn watched as she rolled to the other corner of her tiny workshop, fishing for just the right esoteric part to make complete her invention.*  
+
+*"Is that so? And you're telling me you're the sort to do that kind of thinking." Orn rumbled, the strange consonants of the Common dialect rolling uncomfortably over a tongue used to the simple beauty of the Orcish language. The elf clicked her tongue in a sort of annoyed confirmation, delving deeper into the mechanics of the small disk she was working on.*  
+
+*"That would be my point, indeed." With a final click and a satisfied sound, she rolled over to her large guest. Handing the disk to him, she waved the same wrench over towards the door. "Try that out. You're used to throwing, right? See if you can get it into that dumpster." Orn hefted the small thing, dwarfed by his hand, and raised an eyebrow.*
+
+*"This thing is supposed to get me in to the grand bank?"*
+
+*"Yes. Now throw!" She gestured again. Skeptical, Orn did as she asked, throwing the disk in a nice arc towards the dumpster about a hundred feet away.*
+
+*Even at such a distance, he could feel the incredible heat of the explosion as if it were right in front of him. The dumpster erupted in a massive fireball, making him glad that they were in an abandoned part of town. He turned to the now-smiling elf, her eyes glittering with amusement -- and something darker -- as she held another of the devices out to him.*
+
+*"Now, I believe we were about to discuss payment?"*
+
+##### About
+Shadow Tinkerers forget more about gadgetry than most folks will ever learn. These masters of gears and pulleys hit hard using traps, gadgets, and restored artifacts of the Old World. Whether it's carefully sabotaging a shipment of goods or finding just the right time to incapacitate an enemy, the Shadow Tinkerer is a force to be reckoned with.
+
+##### Tinkerer
+Starting when you assume this archetype at 3rd level, you may spend a short rest Tinkering with a weapon or item in your possession. The die to roll, and the outcome it results in, are detailed in the table below.
+
+
+| Type of Item      | Die to Roll | On Success                                                   | On Failure                        |
+|-------------------|-------------|--------------------------------------------------------------|-----------------------------------|
+| Nonmagical Weapon | d6          | 4-6: add your Proficiency modifier to hit for next encounter | 1: -2 to hit for next encounter   |
+| Magical Weapon    | d8          | 5-8: add your Proficiency modifier to hit for next encounter | 1-2: -2 to hit for next encounter |
+
+##### Gadgeteer
+Starting at 3rd level, you may spend a short rest constructing a Trap or repairing a Gadget. You also gain one Uncommon or Common Gadget selected from the table located in the Items section of this expansion.
 
 ### Ranger
 
 
-#### Demonic Host
+#### Eldritch Host
+- Variant of Beastmaster  
+
+##### Flavor
+*"So it's done then?" Archon growled, rolling his shoulders as he tried to get used to the unsettling feeling of something crawling just beneath the skin. The creature's response reverberated in his head, less an actual response than a wave of emotion, a sense of dark satisfaction.*  
+
+*"I'll take that as a yes."*  
+
+*Archon flexed again and watched as the creature's terribly jagged, insect-like forearm materialized from the shadows above his shoulder, hanging down like some abominable shoulder piece. A grin stretched across his face, unnatural.*
+
+*"Well then. Let's tear some shit up."*  
+
+*A satisfied, unearthly growl precipitated Archon's purposeful stride back towards the House of Sorrows.*
+
+##### About
+Eldritch Hosts are those whose connection with nature extends to even those most unnatural creatures who roam the streets of Awakened Boston. In exchange for the Eldritch creature's assistance in battle and otherwise, the Host provides its flesh and energy as sustenance. This is not always an easy partnership, nor always a willing one, but it is nevertheless powerful. Eldritch creatures' motivations are as diverse as they are powerful. Perhaps a Lawful Good Host contracts with a creature determined to defeat the Eldritch legions, or a Chaotic Evil host shares a love of destruction with her familiar.
+
+##### Eldritch Affinity
+Starting when you choose this archetype at 3rd level, you gain special affinity with an Eldritch entity of your choice (at the GM's discretion). You immediately gain a number of Eldritch Energy points equal to your Wisdom modifier (minimum of 1). You can spend Eldritch Energy to perform a variety of Eldritch abilities.  
+
+**Every time you score a critical hit while in combat, you immediately regain a point of Eldritch Energy.**  
+**If you kill someone with an Eldritch ability, you regain a point of Eldritch Energy.**
+
+
+##### Eldritch Assistance
+A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d6 for each level in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with.
+
+##### Eldritch Guardian
+A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half.
+
+
+##### Manifest
+There, in the shadows - a shape, moving on its own! Starting at 7th level, you may spend two points of Eldritch Energy to summon a spectral version of your Eldritch familiar. This specter has 5d6 HP and has a reduced set of abilities from its corporeal version. The specter lasts until the caster's concentration is broken, the spell is ended by the caster, or after an hour, whichever comes first.
+
+At 17th level, this spell can be cast as a bonus action and no longer requires concentration to maintain. In addition, the specter gains an additional 4d6 HP and has full access to its abilities.
+
+
+##### Eldritch Form
+A most terrible sight - twisted and snarling, abomination in two worlds. Starting at 11th level, you may spend three Eldritch Energy points to use an action to meld your form with your Eldritch familiar's. You immediately heal 4d6 hit points and gain advantage on your next attack. A series of other effects occur based on the selected familiar, detailed in the Monsters section of this expansion.  
+
+At 15th level, this transformation becomes faster and may be performed as a bonus action.
 
 
 ### Fighter
@@ -686,7 +620,44 @@ Reskin/Tweak of Order of the Lycan
 
 #### Eldritch Envoy
 
-## Monsters
+## Items
+
+### Gadgets
+Artifacts of the Old World; new inventions blending magic and technology; however you draw the line, Gadgets are more special than the average item and may require special experience to use.
+
+Name          | Description                                                                                                           | To Hit | DC Effects                                   | Parts Needed                                     | Rarity   | Value in GP | Notes                                                         
+--------------|-----------------------------------------------------------------------------------------------------------------------|--------|----------------------------------------------|--------------------------------------------------|----------|-------------|---------------------------------------------------------------
+Stun Gauntlet | An artifact from the old world that still sparks with condensed lightning. Melee unarmed assist, 2d6 lightning damage | +2     | Constitution (8 + Proficiency) or be Stunned | 1x Gauntlet<br>2x Electrical coils<br>1x Battery | Uncommon | 300 GP      | Requires the "Dangerous Equipment" Feat to wield proficiently
+
+
+## Creatures
+
+### Monsters
+
+#### Iconic
+
+##### The Slumbering Horror
+
+##### The Bloodied Widow
+
+##### The Unsmiling One
+
+##### The Leviathan
+
+##### The Dreamer
+
+
+#### Generic
+
+##### Mutant
+
+##### Lost One
+
+##### Shadow Runner
+
+##### Splintered Soul
+
+##### Horrific Ghoul
 
 ## Locations
 
@@ -700,13 +671,14 @@ Reskin/Tweak of Order of the Lycan
 ### Factions
 
 
-#### Kthanid
+#### Player
 
+#### The Gnomish City of Pru'tial
+- Real-world location: The Prudential
+- Gnomish city which extends deep underground
+- traditional monarchy
 
-#### Nodens
-
-
-#### Yad-Thaddag
-
-
-#### Dagon
+#### The Dwarven City of Ha'bor
+- Real-world location: Boston Harbor
+- Dwarven city which used to run marine travel/fishing before the Resurgence
+- elected tribunal, serve for life
