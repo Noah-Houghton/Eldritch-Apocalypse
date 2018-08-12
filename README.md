@@ -203,8 +203,9 @@ Players have the option to recruit a custom operative that their main character 
 |          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 |          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 
-| Ability Name | Description | Cost |
-|--------------|-------------|------|
+| Ability Name | Description | Cost
+|--------------|-------------|------
+| Gather Arcane Materials  | Spend the Cycle gathering Arcane Materials with a chance to generate some  |  N/A |
 
 #### Units
 
