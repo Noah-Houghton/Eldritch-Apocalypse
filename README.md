@@ -159,8 +159,6 @@ Actions spend Resources to affect change.
 
 ##### Build
 
-#####
-
 ##### Enemy
 
 
@@ -209,13 +207,12 @@ Players have the option to recruit a custom operative that their main character 
 
 #### Units
 
-##### Army
-
-##### Trader
-
-##### Supply Caravan
-
-##### Settlers
+Name           | Description | Build Cost | Maintenance Cost | Upgrades
+---------------|-------------|------------|------------------|---------
+Army           |             |            |                  |
+Trader         |             |            |                  |
+Supply Caravan |             |            |                  |
+Settlers       |             |            |                  |
 
 
 #### Types of Settlement
@@ -223,38 +220,13 @@ Players have the option to recruit a custom operative that their main character 
 Settlements are typically categorized by their population level. Each category has a typical level of Wealth, Prestige, etc. but these are not hard and fast rules. A settlement can transition from one type to the next at the DMs discretion by gaining nearby territory or moving to "greener pastures."
 
 
-##### Camp
-
-| Population        | Wealth | Prestige | Influence | Despair | Loyalty | Readiness |
-|-------------------|--------|----------|-----------|---------|---------|-----------|
-| 20-99 (4d20 + 10) | 1d4    | 1d6      | 1d10      | 1d4-1   | 4d20    | 2d20      |
-
-
-##### Collective
-| Population          | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
-|---------------------|--------|----------|------------|---------|---------|-----------|
-| 100-199 (8d20 + 15) | 2d6    | 1d8      | 1d10 + 1d4 | 1d4-1   | 4d20    | 2d20 + 5  |
-
-
-##### Village
-
-| Population | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
-|------------|--------|----------|------------|---------|---------|-----------|
-| 200-499    | 2d8    | 1d10     | 1d10 + 1d6 | 1d4-1   | 4d20    | 2d20 + 10 |
-
-
-##### Town
-
-| Population | Wealth | Prestige | Influence  | Despair | Loyalty | Readiness |
-|------------|--------|----------|------------|---------|---------|-----------|
-| 500-999    | 3d6+2  | 1d12     | 1d10 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
-
-
-##### City
-
-| Population | Wealth | Prestige   | Influence  | Despair | Loyalty | Readiness |
-|------------|--------|------------|------------|---------|---------|-----------|
-| 1000-2500+ | 4d8    | 1d12 + 1d6 | 1d12 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
+| Settlement Level | Population          | Wealth | Prestige   | Influence  | Despair | Loyalty | Readiness |
+|------------------|---------------------|--------|------------|------------|---------|---------|-----------|
+| Camp             | 20-99 (4d20 + 10)   | 1d4    | 1d6        | 1d10       | 1d4-1   | 4d20    | 2d20      |
+| Collective       | 100-199 (8d20 + 15) | 2d6    | 1d8        | 1d10 + 1d4 | 1d4-1   | 4d20    | 2d20 + 5  |
+| Village          | 200-499             | 2d8    | 1d10       | 1d10 + 1d6 | 1d4-1   | 4d20    | 2d20 + 10 |
+| Town             | 500-999             | 3d6+2  | 1d12       | 1d10 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
+| City             | 1000-2500+          | 4d8    | 1d12 + 1d6 | 1d12 + 1d8 | 1d4-1   | 4d20    | 2d20+10   |
 
 
 #### Reputation
@@ -289,95 +261,21 @@ Example:
 
 
 #### Resources
-
-
-##### Food
-
-Food is the most important resource in the new world. Communities without food either dissipate back into the urban aether or turn to a more vicious sort of consumption.
-
-Food is an integer value. One point of Food will feed 10 Population for one Cycle. Settlements can build up Food storage up to a ceiling equal to the current Population / 2 (can be raised by Improvements).
-
-
-##### Water
-
-Water is the lifeblood of a Settlement. Without a steady supply of water, communities evaporate.
-
-Water is an integer value. One point of water will slake the thirst of 10 Population for one Cycle. Settlements can build up Water stockpiles up to a ceiling equal to the current Population / 4 (can be raised by Improvements).
-
-##### Power
-
-Electrical things require Power to run.
-
-
-##### Population
-
-Population is a measure of the total number of people living in a given settlement. Given a steady supply of food, the population score will slowly increase on its own up to a maximum determined by the Settlement Type. Population is assigned to a variety of tasks at each Cycle to generate resources and construct Improvements. Certain events may also cause Population to rise or drop.
-
-Population is an integer value. Food cost per Cycle is equal to Population / 10 rounded down. Population directly correlates to the number of people in the Settlement.
-
-
-##### Arcane Materials
-
-Arcane Materials represent the magical materials a Settlement has in their stockpiles. Crystals, arcane tomes, and other arcane materials fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the general "Arcane Materials" category can be used.
-
-AM is an integer value. It can be generated actively by SpecOp missions or by assigning Population to scavenge in certain locations. It can be generated passively by certain Improvements or Trade Routes. Each point of AM is treated as two points of Wealth for purposes of calculating attack chance.
-
-
-##### Building Materials
-
-Building Materials represent the physical materials a Settlement has in their stockpiles. Timber, stone, metals, etc. all fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the simple "building materials" category can be used.
-
-Building Materials is an integer value. It can be generated actively by SpecOp missions or by assigning Population to scavenging. It can be generated passively by certain Improvements or Trade Routes. Each point of BM is treated as a point of wealth for purposes of calculating attack chance.
-
-
-##### Wealth
-
-Wealth is a measure of how much the Settlement is worth. This means both liquid wealth (coin, tools, etc) and natural resources (access to water, strategic importance, etc). Wealth correlates directly to the frequency with which attacks are made against the Settlement, as well as the amount of Influence it generates
-
-For reference, wealth is about 1/10 of a Settlement's wealth in GP. So a Settlement with a wealth of 1 has about 10 GP across its population, whether in liquid cash, items, or Improvements.
-
-
-##### Prestige
-
-Prestige measures how well-known the Settlement is. A highly Prestigious Settlement will attract more Population, increase in Wealth more quickly, and draw more powerful SpecOps to the area for recruitment - but will also increase the chance that bandits will attack.
-
-A Prestigious Settlement has around 70 Prestige. An unprestigious Settlement has around 10 Prestige.
-
-
-##### Influence
-
-Influence measures how important the Settlement is in the political spheres of the world. A highly Influential Settlement will be able to Expand more easily, forge more trade routes, and influence the goings-on in other Settlements. Influence also reduces the cost of recruiting Spies and Mercenaries.
-
-An Influential Settlement has about 70 Influence. A less Influential Settlement has around 10 Influence.
-
-
-##### Despair
-
-When the shambling forces of madness have come into the world from a slumber of aeons, there can be no question of hope, only despair. Despair measures the grip of madness on the colony, and directly influences almost everything about a settlement's operation. For each level of Despair up to five, Readiness drops by 5% and Loyalty by 2%. Every time Despair increases there is a chance for a Crisis to occur; every time it drops there is a chance for a Respite to occur. Certain buildings and improvements are unlocked / only operate at certain levels of Despair. Despair can be reduced by Diplomatic missions, purchasing luxury goods, or by successful defense. Despair is increased by successful enemy attacks, food shortages, or world events.
-
-Despair scales linearly from 0 to 5. A Desperate Settlement is at 5; a Hopeful Settlement is at 0.
-
-
-##### Loyalty
-
-Loyalty is a measure of a Settlement's allegiance to its leaders. Settlements with high Loyalty are less likely to generate leadership Crises and will be more willing to give players resources; settlements with low Loyalty are less likely to help the player and will switch allegiance more easily. Loyalty steadily increases when food supplies are adequate and Wealth remains above a certain threshold determined by the size of the Settlement.
-
-A Settlement is considered Loyal if its Loyalty is above 70%; the DC for a village to turn drops from DC20 by 1 for every 5% drop below 70% down to 40% Loyalty (DC 14). Below 40% Loyalty, a Settlement is considered Disloyal and the DC for it to turn on the players is at the DM's discretion.
-
-
-##### Readiness
-
-Readiness is a measure of a Settlement's ability to respond quickly to attacks and other events. The Readiness percentage of a town is multiplied by the population to determine the size of its defense force in the event of a surprise attack. Readiness also determines the likelihood of discovering a Sabotage mission in the city. Finally, Readiness determines the size of the attacking force which can be mustered instantly. Readiness plus 1% per 2 wealth spent is multiplied by population to muster an attack force. Defensive readiness is reduced by the amount of readiness spent to form the attacking Unit.
-
-Readiness is a percentage value from 0% to 100%. Readiness is reduced by 1% for every Population increase.
-
-Readiness can be increased by assigning Population to tasks or by player action. Certain SpecOp missions will also cause Readiness to increase or decrease. Readiness decreases at a steady rate down to a floor determined by the individual Settlement. This rate of decay can be lessened by certain Improvements.
-
-
-##### Defense
-Defense is a measure of a Settlement's passive ability to defend itself - fortifications, preparation, etc. This number is added to a Settlement's Readiness when calculating the outcome of defending an attack.
-
-
+Resource Name      | Description                                                                                                                                                                                                                                                                                                                                                                                                                              | Default Maximum                                                                                                                                                                      | Usage                                                                                                                                                                                                                                                                                                           | Notes
+-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Food               | Food is the most important resource in the new world. Communities without food either dissipate back into the urban aether or turn to a more vicious sort of consumption.                                                                                                                                                                                                                                                                | Settlements can build up Food storage up to a ceiling equal to the current Population / 2 (can be raised by Improvements).                                                           | One point of Food will feed 10 Population for one Cycle.                                                                                                                                                                                                                                                        |
+Water              | Water is the lifeblood of a Settlement. Without a steady supply of water, communities evaporate.                                                                                                                                                                                                                                                                                                                                         | Settlements can build up Water stockpiles up to a ceiling equal to the current Population / 4 (can be raised by Improvements).                                                       |                                                                                                                                                                                                                                                                                                                 |
+Power              | Electrical things require Power to run.                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                      | One point of water will slake the thirst of 10 Population for one Cycle.                                                                                                                                                                                                                                        |
+Population         | Population is a measure of the total number of people living in a given settlement. Given a steady supply of food, the population score will slowly increase on its own up to a maximum determined by the Settlement Type.                                                                                                                                                                                                               |                                                                                                                                                                                      | Population is assigned to a variety of tasks at each Cycle to generate resources and construct Improvements. Food cost per Cycle is equal to Population / 10 rounded down.                                                                                                                                      | Certain events may also cause Population to rise or drop.
+Arcane Materials   | Arcane Materials represent the magical materials a Settlement has in their stockpiles. Crystals, arcane tomes, and other arcane materials fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the general "Arcane Materials" category can be used.                                                                                                                 |                                                                                                                                                                                      | It can be generated actively by SpecOp missions or by assigning Population to scavenge in certain locations. It can be generated passively by certain Improvements or Trade Routes.                                                                                                                             | Each point of AM is treated as two points of Wealth for purposes of calculating attack chance.
+Building Materials | Building Materials represent the physical materials a Settlement has in their stockpiles. Timber, stone, metals, etc. all fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the simple "building materials" category can be used.                                                                                                                                |                                                                                                                                                                                      | It can be generated actively by SpecOp missions or by assigning Population to scavenging. It can be generated passively by certain Improvements or Trade Routes.                                                                                                                                                | Each point of BM is treated as a point of wealth for purposes of calculating attack chance.
+Wealth             | Wealth is a measure of how much the Settlement is worth. This means both liquid wealth (coin, tools, etc) and natural resources (access to water, strategic importance, etc). Wealth correlates directly to the frequency with which attacks are made against the Settlement, as well as the amount of Influence it generates.                                                                                                           |                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                 | For reference, wealth is about 1/10 of a Settlement's wealth in GP. So a Settlement with a wealth of 1 has about 10 GP across its population, whether in liquid cash, items, or Improvements.
+Prestige           | Prestige measures how well-known the Settlement is.                                                                                                                                                                                                                                                                                                                                                                                      | A Prestigious Settlement has around 70 Prestige. An unprestigious Settlement has around 10 Prestige.                                                                                 | A highly Prestigious Settlement will attract more Population, increase in Wealth more quickly, and draw more powerful SpecOps to the area for recruitment - but will also increase the chance that bandits will attack.                                                                                         |
+Influence          | Influence measures how important the Settlement is in the political spheres of the world.                                                                                                                                                                                                                                                                                                                                                | An Influential Settlement has about 70 Influence. A less Influential Settlement has around 10 Influence.                                                                             | A highly Influential Settlement will be able to Expand more easily, forge more trade routes, and influence the goings-on in other Settlements. Influence also reduces the cost of recruiting Spies and Mercenaries.                                                                                             |
+Despair            | When the shambling forces of madness have come into the world from a slumber of aeons, there can be no question of hope, only despair. Despair measures the grip of madness on the colony, and directly influences almost everything about a settlement's operation.                                                                                                                                                                     | Despair can be reduced by Diplomatic missions, purchasing luxury goods, or by successful defense. Despair is increased by successful enemy attacks, food shortages, or world events. | For each level of Despair up to five, Readiness drops by 5% and Loyalty by 2%. Every time Despair increases there is a chance for a Crisis to occur; every time it drops there is a chance for a Respite to occur. Certain buildings and improvements are unlocked / only operate at certain levels of Despair. | Despair scales linearly from 0 to 5. A Desperate Settlement is at 5; a Hopeful Settlement is at 0.
+Loyalty            | Loyalty is a measure of a Settlement's allegiance to its leaders.                                                                                                                                                                                                                                                                                                                                                                        | Loyalty steadily increases when food supplies are adequate and Wealth remains above a certain threshold determined by the size of the Settlement.                                    | Settlements with high Loyalty are less likely to generate leadership Crises and will be more willing to give players resources; settlements with low Loyalty are less likely to help the player and will switch allegiance more easily.                                                                         | A Settlement is considered Loyal if its Loyalty is above 70%; the DC for a village to turn drops from DC20 by 1 for every 5% drop below 70% down to 40% Loyalty (DC 14). Below 40% Loyalty, a Settlement is considered Disloyal and the DC for it to turn on the players is at the DM's discretion.
+Readiness          | Readiness is a measure of a Settlement's ability to respond quickly to attacks and other events. The Readiness percentage of a town is multiplied by the population to determine the size of its defense force in the event of a surprise attack. Readiness also determines the likelihood of discovering a Sabotage mission in the city. Finally, Readiness determines the size of the attacking force which can be mustered instantly. | Readiness is a percentage value from 0% to 100%. Readiness is reduced by 1% for every Population increase.                                                                           | Readiness plus 1% per 2 wealth spent is multiplied by population to muster an attack force. Defensive readiness is reduced by the amount of readiness spent to form the attacking Unit.                                                                                                                         | Readiness can be increased by assigning Population to tasks or by player action. Certain SpecOp missions will also cause Readiness to increase or decrease. Readiness decreases at a steady rate down to a floor determined by the individual Settlement. This rate of decay can be lessened by certain Improvements.
+Defense            | Defense is a measure of a Settlement's passive ability to defend itself - fortifications, preparation, etc.                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                      | This number is added to a Settlement's Readiness when calculating the outcome of defending an attack.                                                                                                                                                                                                           |
 
 ### Firearms
 
@@ -490,6 +388,13 @@ Name | Description | Prerequisites
 
 
 #### Eldritch Pact
+
+
+##### Flavor
+
+
+##### About
+Unwilling warrior or bloodthirsty shill, the Eldritch Warlock has contracted with those most powerful and terrible of creatures -- the Old Gods, harbingers of great doom and leaders of the Eldritch Invasion.
 
 
 ### Blood Hunter
