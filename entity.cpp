@@ -16,6 +16,11 @@ UnitClass::UnitClass(char* uName, EntityType uType, std::list<Effect> uPassiveEf
 	attributes = attr;
 }
 
+MovableEntity::MovableEntity(char* name, Node location, std::list<Effect> startingEffects, Movement move, Size size, int power, UnitClass& uClass, std::list <ActiveAbility> abilities, bool bIsHidden) : Entity(name, location, startingEffects)
+{
+
+}
+
 std::list<ActiveAbility> warriorAbilities;
 std::list<Effect> warriorEffects;
 Attributes warriorAttributes;

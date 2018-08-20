@@ -3,6 +3,7 @@
 #include "effect.h"
 #include "map.h"
 #include <list>
+#include <stack>
 
 class Entity {
   // variables
@@ -10,6 +11,7 @@ class Entity {
   char* name;
   Node location;
   std::list <Effect> effects;
+
   // functions
 
   void ProcessEffects();
@@ -19,7 +21,9 @@ class Entity {
   void SetName (char* newName);
   Node GetCurrentNode();
   void SetNode(Node newNode);
+
   // default constructor
+public:
   Entity(char* entityName, Node entityLocation, std::list<Effect> startingEffects);
 };
 
@@ -28,6 +32,8 @@ enum EntityType { Military = 0, Economic = 1, Diplomacy = 2 };
 
 enum Size { Small = 0, Medium = 1, Large = 2, Giant = 3, Massive = 4 };
 
+// contains information which influences how the unit interacts
+// with the world
 struct Attributes {
 	int attack;
 	int defense;
@@ -56,7 +62,7 @@ public:
 class MovableEntity : Entity {
   // variables
 
-  std::list <Node&> nodeHistory;
+  std::stack <Node&> nodeHistory;
   Movement movement;
   Size size;
   // for reference
@@ -73,8 +79,6 @@ class MovableEntity : Entity {
   Attributes attributes;
 
   // functions
-
-
 
   void SetDestination(Node newDestination);
   void SetMovement(Movement newMovement);

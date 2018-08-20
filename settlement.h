@@ -18,7 +18,7 @@ class Settlement : Entity {
   std::list <Unit> units;
   std::list <Effect> effects;
   std::list <Reputation> reputation;
-  std::list <Resource> resources;
+  std::list <ResourceContainer> resources;
   std::list <Improvement> improvements;
   SettlementType type;
   Player controllingPlayer;
