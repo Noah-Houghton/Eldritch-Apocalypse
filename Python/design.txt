@@ -1,0 +1,39 @@
+Settlement
+| - resource containers
+| - Improvements
+| - Hosted Units
+| - ability to create units & improvements
+
+Improvement
+| - name
+| - effect on town
+| - effect on resources
+| - tier w. associated benefits
+
+Resource
+| - name
+
+Resource Container
+| - reference to a shared list of resources
+| - local max, amount, effect at 0
+| - gain per tick
+
+Ability
+| - name
+| - cost
+| - prereqs
+| - cooldown
+| - effect
+| - target(s)
+
+
+Unit
+| - name
+| - ability
+| - effects
+| - attributes
+| - movement
+
+Map
+| - Node
+| - Edge

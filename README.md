@@ -165,31 +165,9 @@ Actions spend Resources to affect change.
 ##### Player
 
 
+### Units
+
 #### Special Operatives
-
-##### Missions
-Missions are categorized by these aspects:
-* Severity (int, 1-5) (# of "People Points" needed to address)
-* Danger (int, 0-100) (raw chance of SpecOp dying on failure)
-* Success (int, 0-100) (raw chance of SpecOp success)
-* SuccessEffect (list <Entity, Effect>) (effects which take place on successful completion)
-* FailureEffect (list <Entity, Effect>) (effects which take place on failure)
-* Type (enum) (type of mission, SpecOps have +/- to certain mission types)
-* RequiredUnit (list <Unit>) (units which are allowed to take on this mission)
-
-###### Friendly
-
-###### Enemy
-
-
-
-##### Protégés
-
-The new world is more dangerous and unforgiving than ever before. Death stalks the unwary, and even veteran adventurers may meet their end. The next generation is your best hope for a lasting legacy.
-
-Players have the option to recruit a custom operative that their main character nurtures as a protégé. On the event of player death, the player may choose to switch to their protégé. At the DM's discretion, they may also switch out characters temporarily without either dying. The protégé gets a bonus specific to the character who mentored them, determined by the DM in consultation with the player.
-
-
 
 | Type     | Description                                                                                                                                                                                                                                                                                                                                                     | Classes                   | Mission Specialties           | Settlement Abilities                     | Active Abilities  |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-------------------------------|------------------------------------------|-------------------|
@@ -199,20 +177,25 @@ Players have the option to recruit a custom operative that their main character 
 | Diplomat |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 | Spy      |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 |          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
-|          |                                                                                                                                                                                                                                                                                                                                                                 |                           |                               |                                          |                   |
 
 | Ability Name | Description | Cost
 |--------------|-------------|------
-| Gather Arcane Materials  | Spend the Cycle gathering Arcane Materials with a chance to generate some  |  N/A |
+| Gather Arcane Materials  | Spend the Cycle gathering Arcane Materials with a chance to generate some  |  N/A
 
-#### Units
+#### Protégés
+
+The new world is more dangerous and unforgiving than ever before. Death stalks the unwary, and even veteran adventurers may meet their end. The next generation is your best hope for a lasting legacy.
+
+Players have the option to recruit a custom operative that their main character nurtures as a protégé. On the event of player death, the player may choose to switch to their protégé. At the DM's discretion, they may also switch out characters temporarily without either dying. The protégé gets a bonus specific to the character who mentored them, determined by the DM in consultation with the player.
+
+#### Standard Units
 
 Name           | Description | Build Cost | Maintenance Cost | Upgrades
 ---------------|-------------|------------|------------------|---------
-Army           |             |            |                  |
+Army           |             |            |                  | Flagbearer;
 Trader         |             |            |                  |
 Supply Caravan |             |            |                  |
-Settlers       |             |            |                  |
+Settler        |             |            |                  |
 
 
 #### Types of Settlement
@@ -242,30 +225,30 @@ Example:
 
 #### Improvements
 
-| Name                     | Build Cost                            | Labor Cost    | Maintenance | Cycle Effect      | On build                                                                                                                                                                                                                                               | Tiers                                | Prerequisites |
-|--------------------------|---------------------------------------|---------------|-------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|---------------|
-| Farm                     | (1x Building Level) Building Material | 10 Population | 1x Water    | +2 Food, -1 Water | Increases Wealth and Prestige by 1                                                                                                                                                                                                                     | Food/Cycle increases by 1 every Tier | None          |
-| Scouting Outpost         |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Defensive Walls          |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Central Plumbing         |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Water Purification Tower |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Cistern                  |                                       |               |             |                   | Increases water storage by 2d20                                                                                                                                                                                                                        |                                      |               |
-| Watchtower               |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Tavern                   |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Marketplace              |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Radio Tower              |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Theater                  |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Barracks                 |                                       |               |             |                   |                                                                                                                                                                                                                                                        |                                      |               |
-| Ranger's Village         |                                       |               |             |                   | Unlocks the Scouting Action. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.                                   |                                      |               |
-| Stables                  |                                       |               |             |                   | Players can choose to spend readiness to patrol roads which will greatly reduce the possibility of misfortune during travel and facilitate trade to any cities reached by the patrol. For each 1% of readiness spent, a mile of road can be patrolled. | Permanent +1 to Scouting speed.      |               |
+| Name                     | Build Cost                            | Labor Cost    | Maintenance | Cycle Effect      | On build                                                                                                                                                                                                                                                                               | Tiers                                | Prerequisites |
+|--------------------------|---------------------------------------|---------------|-------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|---------------|
+| Farm                     | (1x Building Level) Building Material | 10 Population | 1x Water    | +2 Food, -1 Water | Increases Wealth and Prestige by 1                                                                                                                                                                                                                                                     | Food/Cycle increases by 1 every Tier | None          |
+| Scouting Outpost         |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Defensive Walls          |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Central Plumbing         |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Water Purification Tower |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Cistern                  |                                       |               |             |                   | Increases water storage by 2d20                                                                                                                                                                                                                                                        |                                      |               |
+| Watchtower               |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Tavern                   |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Marketplace              |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Radio Tower              |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Theater                  |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Barracks                 |                                       |               |             |                   |                                                                                                                                                                                                                                                                                        |                                      |               |
+| Ranger's Village         |                                       |               |             |                   | Unlocks the Scouting Action. Assign population to gather information about the goings-on in a specific tile. Cycles to completion & danger of discovery or injury increase the further away from camp you send them.                                                                   |                                      |               |
+| Stables                  |                                       |               |             |                   | Permanent +1 to Scouting speed. Players can choose to spend readiness to patrol roads which will greatly reduce the possibility of misfortune during travel and facilitate trade to any cities reached by the patrol. For each 1% of readiness spent, a mile of road can be patrolled. |                                      |               |
 
 
 #### Resources
-Resource Name      | Description                                                                                                                                                                                                                                                                                                                                                                                                                              | Default Maximum                                                                                                                                                                      | Usage                                                                                                                                                                                                                                                                                                           | Notes
+Resource Name      | Description                                                                                                                                                                                                                                                                                                                                                                                                                              | Scale / Maximum                                                                                                                                                                      | Usage                                                                                                                                                                                                                                                                                                           | Notes
 -------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Food               | Food is the most important resource in the new world. Communities without food either dissipate back into the urban aether or turn to a more vicious sort of consumption.                                                                                                                                                                                                                                                                | Settlements can build up Food storage up to a ceiling equal to the current Population / 2 (can be raised by Improvements).                                                           | One point of Food will feed 10 Population for one Cycle.                                                                                                                                                                                                                                                        |
-Water              | Water is the lifeblood of a Settlement. Without a steady supply of water, communities evaporate.                                                                                                                                                                                                                                                                                                                                         | Settlements can build up Water stockpiles up to a ceiling equal to the current Population / 4 (can be raised by Improvements).                                                       |                                                                                                                                                                                                                                                                                                                 |
-Power              | Electrical things require Power to run.                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                      | One point of water will slake the thirst of 10 Population for one Cycle.                                                                                                                                                                                                                                        |
+Water              | Water is the lifeblood of a Settlement. Without a steady supply of water, communities evaporate.                                                                                                                                                                                                                                                                                                                                         | Settlements can build up Water stockpiles up to a ceiling equal to the current Population / 4 (can be raised by Improvements).                                                       | One point of Water will slake the thirst of 10 Population for one Cycle.                                                                                                                                                                                                                                        |
+Power              | Electrical things require Power to run. Electricity may bring machines long dead back to life, but it is not the only sort of power in this world -- and by no means the most powerful.                                                                                                                                                                                                                                                  | Settlements can build up Energy stockpiles up to a ceiling equal to the current Population / 50 (can be raised by Improvements).                                                     | One point of Power will keep the lights on for 1 Machine for one Cycle.                                                                                                                                                                                                                                         |
 Population         | Population is a measure of the total number of people living in a given settlement. Given a steady supply of food, the population score will slowly increase on its own up to a maximum determined by the Settlement Type.                                                                                                                                                                                                               |                                                                                                                                                                                      | Population is assigned to a variety of tasks at each Cycle to generate resources and construct Improvements. Food cost per Cycle is equal to Population / 10 rounded down.                                                                                                                                      | Certain events may also cause Population to rise or drop.
 Arcane Materials   | Arcane Materials represent the magical materials a Settlement has in their stockpiles. Crystals, arcane tomes, and other arcane materials fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the general "Arcane Materials" category can be used.                                                                                                                 |                                                                                                                                                                                      | It can be generated actively by SpecOp missions or by assigning Population to scavenge in certain locations. It can be generated passively by certain Improvements or Trade Routes.                                                                                                                             | Each point of AM is treated as two points of Wealth for purposes of calculating attack chance.
 Building Materials | Building Materials represent the physical materials a Settlement has in their stockpiles. Timber, stone, metals, etc. all fall under this category. At the DM's discretion these resources can be tracked with more granularity, or for ease of use the simple "building materials" category can be used.                                                                                                                                |                                                                                                                                                                                      | It can be generated actively by SpecOp missions or by assigning Population to scavenging. It can be generated passively by certain Improvements or Trade Routes.                                                                                                                                                | Each point of BM is treated as a point of wealth for purposes of calculating attack chance.
@@ -340,6 +323,8 @@ As you gain power and influence, you will start to be able to affect change in t
 
 ## Races
 
+### Internet Elemental
+
 
 ### Abomination
 
@@ -347,39 +332,42 @@ As you gain power and influence, you will start to be able to affect change in t
 ### Saerun
 
 
+### Symbiote
+Not quite human, not quite creature; a haunting portrait of a transformation half-done, a creature trapped between equally hellish worlds. The Symbiote is a creature whose
+
 ## Feats
 
 ### Combat
 
-Name | Description | Prerequisites
------|-------------|--------------
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
+Name                | Description                                  | Prerequisites
+--------------------|----------------------------------------------|--------------
+Dangerous Equipment | You gain proficiency with Dangerous Gadgets. | N/A
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
+                    |                                              |
 
 ### Noncombat
 
-Name | Description | Prerequisites
------|-------------|--------------
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
-     |             |
+Name            | Description                                                                                                                                                | Prerequisites
+----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------
+Night Whisperer | You understand the foul creatures of a sleepless world in ways few mortals do. You gain advantage on Charisma-based rolls made against Eldritch creatures. | Class or racial affiliation with an Eldritch being
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
+                |                                                                                                                                                            |
 
 ## Subclasses
 
@@ -387,14 +375,19 @@ Name | Description | Prerequisites
 ### Warlock
 
 
-#### Eldritch Pact
+#### The Old Gods (Patron)
+* flavor of Great Old One
 
 
 ##### Flavor
 
 
 ##### About
-Unwilling warrior or bloodthirsty shill, the Eldritch Warlock has contracted with those most powerful and terrible of creatures -- the Old Gods, harbingers of great doom and leaders of the Eldritch Invasion.
+Unwilling warrior or bloodthirsty vanguard, the Eldritch Warlock has contracted with those most powerful and terrible of creatures -- the Old Gods, harbingers of great doom and leaders of the Eldritch Invasion. Whether through unworldly guile or hapless foolishness, these warlocks exchange something of mortal value to gain favor with an Old God. They make fearsome allies and formidable foes, although their allegiance may be somewhat suspect - as no one, least of all the warlock, knows when their terrible master may call upon them for some unspeakable act.
+
+#####
+
+
 
 
 ### Blood Hunter
