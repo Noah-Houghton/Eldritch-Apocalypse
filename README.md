@@ -414,6 +414,9 @@ Reskin/Tweak of Order of the Lycan
 
 #### Technomancer
 
+##### Flavor
+
+##### About
 
 ### Druid
 
@@ -461,6 +464,26 @@ Starting when you assume this archetype at 3rd level, you may spend a short rest
 
 ##### Gadgeteer
 Starting at 3rd level, you may spend a short rest constructing a Trap or repairing a Gadget. You also gain one Uncommon or Common Gadget selected from the table located in the Items section of this expansion.
+
+
+##### One with the Shadows
+Starting at 5th level, you may use this ability once per short rest to blend into the shadows around you. You gain advantage on Stealth rolls against creatures without dark vision and gain an additional 10 ft of movement speed. At 14th level this ability works against creatures with dark vision as well.
+
+At 7th level you may make a short range teleport between shadowed areas no more than 20 feet apart. At 12th level this range increases to 40 feet.
+
+
+##### Mechanically Inclined
+Starting at 3rd level, you immediately gain knowledge of a school of Mechanical Workings chosen from the table below. You may wield any weapon from that school proficiently and gain advantage on checks involving that particular school of knowledge.
+
+School  | Related Ability Score  | Example Technologies
+--|---|--
+Kinetic  | DEX  |  Firearms, Spring/Gear traps
+Chemical  | INT  |  Elixirs,
+Extraplanar  | WIS  |  
+
+### Monk
+
+#### Way of the Void
 
 ### Ranger
 
@@ -517,9 +540,12 @@ At 15th level, this transformation becomes faster and may be performed as a bonu
 ### Cleric
 
 
-#### Eldritch Envoy
+#### Crusader
 
 ## Items
+
+
+### Elixirs
 
 ### Gadgets
 Artifacts of the Old World; new inventions blending magic and technology; however you draw the line, Gadgets are more special than the average item and may require special experience to use.
@@ -527,6 +553,10 @@ Artifacts of the Old World; new inventions blending magic and technology; howeve
 Name          | Description                                                                                                           | To Hit | DC Effects                                   | Parts Needed                                     | Rarity   | Value in GP | Notes                                                         
 --------------|-----------------------------------------------------------------------------------------------------------------------|--------|----------------------------------------------|--------------------------------------------------|----------|-------------|---------------------------------------------------------------
 Stun Gauntlet | An artifact from the old world that still sparks with condensed lightning. Melee unarmed assist, 2d6 lightning damage | +2     | Constitution (8 + Proficiency) or be Stunned | 1x Gauntlet<br>2x Electrical coils<br>1x Battery | Uncommon | 300 GP      | Requires the "Dangerous Equipment" Feat to wield proficiently
+
+
+### Traps
+In addition to the traps outlined in the standard D&D5e ruleset, these traps may be employed in the world or construted by players.
 
 
 ## Creatures
@@ -558,7 +588,7 @@ Stun Gauntlet | An artifact from the old world that still sparks with condensed 
 
 ##### Horrific Ghoul
 
-## Locations
+
 
 
 ## Eldritch Gods
@@ -567,10 +597,62 @@ Stun Gauntlet | An artifact from the old world that still sparks with condensed 
 ### Overview
 
 
-### Factions
+## Factions
+
+### The Gambino
 
 
-#### Player
+###
+
+## Locations of Note
+
+### Unknown
+
+#### Bunker Hill Monument
+
+
+#### USS Constitution
+
+#### Trinity Church
+
+#### Boston Public Library
+
+### Eldritch
+
+#### Paul Revere House
+
+#### Fenway Park
+
+#### Faneuil Hall
+
+#### MFA
+
+#### Old North Church
+
+#### Symphony Hall
+
+#### HBS
+
+
+### Civilized
+
+
+#### Human Stronghold of Fort Independence
+- real-world location: Fort Independence
+- Human stronghold, strong military
+- military junta
+
+
+#### Elven City of Mus'ience
+- real-world location: Museum of Science
+- Elven city based around knowledge acquisition
+- scientific oligarchy
+
+#### The Free Town of Common
+- Real-world location: Boston Common
+- Mixed-race trading town operating much like a wild-west town
+- oligarchy
+
 
 #### The Gnomish City of Pru'tial
 - Real-world location: The Prudential
@@ -581,3 +663,13 @@ Stun Gauntlet | An artifact from the old world that still sparks with condensed 
 - Real-world location: Boston Harbor
 - Dwarven city which used to run marine travel/fishing before the Resurgence
 - elected tribunal, serve for life
+
+#### Orcish Settlement of Aqu'rium
+- Real-world location: Boston Aquarium
+- Orc city which focuses around aqua magic
+- direct democracy
+
+#### Human City of Mai'Tech
+- Real-world location: MIT
+- Human city focused on resurrection of tech (and integration with magic)
+- appointed tribunal
