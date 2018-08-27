@@ -85,6 +85,9 @@ The world before the Awakening is called the Old World
 
 #### The MBTA
 
+
+
+
 #### Major Landmarks
 
 
@@ -640,12 +643,19 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 ##### Horrific Ghoul
 
 
-
-
 ## Eldritch Gods
 
 
 ### Overview
+
+
+### Signs and Symbols
+
+#### Elder Sign
+
+#### Sign of Koth
+
+#### Yellow Sign
 
 
 ### Avatars
@@ -659,7 +669,7 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 
 #### Brotherhood of the Black Pharaoh
 
-#### Brothers of the Yellow Sig
+#### Brothers of the Yellow Sign
 
 #### Chesuncook Witch Coven
 
