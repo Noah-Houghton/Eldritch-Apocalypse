@@ -88,6 +88,10 @@ The world before the Awakening is called the Old World
 #### Major Landmarks
 
 
+## References
+- https://en.wikipedia.org/wiki/Elements_of_the_Cthulhu_Mythos
+
+
 ## Mechanics
 
 
@@ -509,11 +513,11 @@ Eldritch Hosts are those whose connection with nature extends to even those most
 Starting when you choose this archetype at 3rd level, you gain special affinity with an Eldritch entity of your choice (at the GM's discretion). You immediately gain a number of Eldritch Energy points equal to your Wisdom modifier (minimum of 1). You can spend Eldritch Energy to perform a variety of Eldritch abilities.  
 
 **Every time you score a critical hit while in combat, you immediately regain a point of Eldritch Energy.**  
-**If you kill someone with an Eldritch ability, you regain a point of Eldritch Energy.**
+**If you kill someone with an Eldritch ability, roll 1d8. If it is greater than 6, regain a point of Eldritch Energy as well as 5 additional points of Monstrosity.**
 
 
 ##### Eldritch Assistance
-A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d6 for each level in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with.
+A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d10 every two levels in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with. Using this ability also increases your Monstrosity by 5 points.
 
 ##### Eldritch Guardian
 A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half.
@@ -526,7 +530,7 @@ At 17th level, this spell can be cast as a bonus action and no longer requires c
 
 
 ##### Eldritch Form
-A most terrible sight - twisted and snarling, abomination in two worlds. Starting at 11th level, you may spend three Eldritch Energy points to use an action to meld your form with your Eldritch familiar's. You immediately heal 4d6 hit points and gain advantage on your next attack. A series of other effects occur based on the selected familiar, detailed in the Monsters section of this expansion.  
+A most terrible sight - twisted and snarling, abomination in two worlds. Starting at 11th level, you may spend two Eldritch Energy points to use an action to meld your form with your Eldritch familiar's. You immediately heal 4d6 hit points and gain advantage on your next attack. A series of other effects occur based on the selected familiar, detailed in the Monsters section of this expansion. Your Monstrosity increases by 30 points immediately when you use this ability and is reduced by 10 when the form ends.
 
 At 15th level, this transformation becomes faster and may be performed as a bonus action.
 
@@ -563,6 +567,51 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 
 ### Monsters
 
+
+#### Eldritch Creatures
+
+##### Dread Worm
+
+
+##### Hunting Horrors
+
+
+##### Kadariak Kepf
+
+
+##### Dimensional Shambler
+
+
+##### Dreamlings of Hypnos
+
+
+##### Dwellers in the Depths
+
+##### Fog-Spawn
+
+
+##### Byakhee
+
+
+##### Azagoths
+
+
+##### Alskali
+
+
+##### Adumbrali
+
+
+##### Deep Ones
+
+##### Y'lagh
+
+
+#### Legendary
+
+##### Narrathoth the Forgotten
+
+
 #### Iconic
 
 ##### The Slumbering Horror
@@ -574,6 +623,8 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 ##### The Leviathan
 
 ##### The Dreamer
+
+##### The Crawling Chaos
 
 
 #### Generic
@@ -596,6 +647,31 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 
 ### Overview
 
+
+### Avatars
+
+
+### Cults
+
+#### Black Brotherhood
+
+#### Brotherhood of the Beast
+
+#### Brotherhood of the Black Pharaoh
+
+#### Brothers of the Yellow Sig
+
+#### Chesuncook Witch Coven
+
+#### Chorazos Cult
+
+#### Church of Starry Wisdom
+
+#### Cult of Cthulhu
+
+#### Cult of the Bloody Tongue
+
+#### Esoteric Order of Dagon
 
 ## Factions
 
