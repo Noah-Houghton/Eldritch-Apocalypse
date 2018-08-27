@@ -205,6 +205,14 @@ Supply Caravan |             |            |                  |
 Settler        |             |            |                  |
 
 
+##### Unit Upgrades
+
+Upgrade  | Effect  | Cost 
+--|---|--
+  |   |  
+  |   |  
+
+
 #### Types of Settlement
 
 Settlements are typically categorized by their population level. Each category has a typical level of Wealth, Prestige, etc. but these are not hard and fast rules. A settlement can transition from one type to the next at the DMs discretion by gaining nearby territory or moving to "greener pastures."
