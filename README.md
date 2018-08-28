@@ -15,8 +15,8 @@
 *   Balance GS resources
     *   Address appropriate scaling
 *   Balance GS turn system
-*   Draft Firearms rules
 *   Balance Monstrosity
+*   Draft Firearms rules
 *   Implement Monstrosity in DNDB- perhaps class-lock items which have specific abilities?
 *   Draft GS units
 *   Brainstorm/draft subclasses
@@ -86,6 +86,9 @@ The world before the Awakening is called the Old World
 #### The MBTA
 
 
+"Charlie on the MTA" / "Winter Happens"
+
+The MBTA, Boston's public transit system in the Old Days, still gets people where they need to go. Most of the time. Brave adventurers navigate the dark and treacherous linkages between small beacons of civilization established at many of the stops. These tend to be smaller settlements, usually little more than waypoints en route to the remaining large settlements; but as with other dark places in the city, the shadows seem to move on their own and the sounds of otherworldly corruption echo down abandoned, crumbling concrete halls.
 
 
 #### Major Landmarks
@@ -207,7 +210,7 @@ Settler        |             |            |                  |
 
 ##### Unit Upgrades
 
-Upgrade  | Effect  | Cost 
+Upgrade  | Effect  | Cost
 --|---|--
   |   |  
   |   |  
@@ -338,17 +341,51 @@ As you gain power and influence, you will start to be able to affect change in t
 
 ## Races
 
-### Internet Elemental
+### Android
+
+#### Flavor
+"Does this unit have a soul?"
+
+
+#### About
+Incredibly sophisticated in design, yet imperfect, the Android is a relic of a bygone era. Incredibly rare and hunted for their advanced technological parts, their silicon hearts beat in perfect time -- when they're fully charged. Androids must maintain Power, a rare luxury in the sundered world. Lucky Androids carry their own means of generating power through renewable means, but older models are forced to find more creative solutions.
+
+#### Ability Scores
+Attribute  | Bonus
+--|--
+STR  | +1
+INT  |  +2
+WIS  |  -1  
+CHA  |  -1
+
+
+#### Power
+Androids have the unenviable task of maintaining Power as well as the standard unit hitpoints. In the case of the Android, Power represents the unit's ability to maintain its internal functions, whereas HP represent the physical condition of its body. This means that in certain cases an Android whose body has been destroyed may be loaded into a different body, provided its Power is maintained. This has been known to be a traumatic experience for synthetics and can have unpredictable effects on the integrity of their personality.
+
+When creating an Android, you have to determine what method of power generation it uses. You may select any of the first-tier methods unanimously, or ask your DM about starting with a higher tier generator.
+
+##### Tier 1 Power Generators
+
+
+##### Tier 2 Power Generators
+
+
+##### Tier 3 Power Generators
+
 
 
 ### Abomination
+
+#### Flavor
+
+#### About
 
 
 ### Saerun
 
 
 ### Symbiote
-Not quite human, not quite creature; a haunting portrait of a transformation half-done, a creature trapped between equally hellish worlds. The Symbiote is a creature whose
+Not quite human, not quite creature; a haunting portrait of a transformation half-done, a being trapped between equally hellish worlds. The Symbiote is a hellish, unfinished mixture of beings Eldritch and humanoid. A Symbiote is formed out of a failed Eldritch possession, and as such is a new creature forged from pieces of its constituent parties. 
 
 ## Feats
 
@@ -417,6 +454,56 @@ Reskin/Tweak of Order of the Lycan
 
 #### Eldritch Alchemist
 
+##### Flavor
+*"No!" A bottle of some putrid-looking liquid crashed against the corrugated metal of the shed's walls, the shards falling into a scattered heap onto the dusty wooden floor. The brownish-green fluid oozed down the wall slowly, as if reluctant to meet the floor.*
+
+*"It's wrong! It's all wrong!" Atsor the Foresworn was not a patient man. A brilliant man, perhaps the smartest elf in the city, but not patient. Cursed with genius enough to set goals but insufficient to accomplish them, his assistants knew to avoid the lab when his shouts of inchoate rage and the sounds of bottles breaking disrupted the cool stillness of an unscrupulous evening.*
+
+*"There must be something...something I'm missing..." Half-mad with frustration and the rancor of science gone awry, Atsor paged furiously through the alchemic texts of his forebears, searching for his mistake. The crazed mumblings of a corrupted genius in this strange and dangerous new world often attract the attention of otherworldly and dangerous creatures, willing to exchange unsavory knowledge for sanguine sacrifice. So it was this night, with this elven miscreant.*
+
+*A drop of liquid darkness welled up from the spine of the text, slithering its unholy way towards aged, trembling fingers. "What are you, then?" the alchemist squawked, his curiosity overriding the sense of dread welling up in his most primal being. "Come to laugh at an old fool?"*
+
+*The darkness seemed to shake its head, oozing away through the pages. The scientist flipped carefully through the pages, coming to rest where the darkness had coiled itself, like some terrible feline caricature, around a series of arcane symbols. Atsor grumbled, turning away with a huff. "Damnable creature, I've tried this already! The mixture remains unstable, it requires some sort of..." A sizzling sound broke through his protestations. He turned back to the book to see the darkness slithering away, off the table and into the shadows. He approached the table cautiously to see an addition to the symbols burned onto the page, smoke still rising from its edges.*
+
+*"Yes...yes, of course! How could I not have seen it before? The mixture requires something...otherworldly." The alchemist turned to the shadows, where he could swear an eye peered out at him. Ecstatic with the sensation of the nearness of discovery, the foolish genius extended his hands in supplication. The darkness was all too happy to oblige.*
+
+*The next day, Ro'enthop fell to an onslaught from within. Survivors tell of a crazed laugh, a lab coat streaked with an oily blackness, and an elf whose very being sang with unholy power.*
+
+
+
+##### About
+The Eldritch Alchemist is a Wizard who, through careful study or reckless contract, has developed an acute understanding of the otherworldly creatures which haunt the streets. Through careful brewing of potions and Elixirs, as well as the preparation of powerful spells, these practitioners of magic are often obsessed with knowledge acquisition and will do almost anything to acquire it. Only the most steadfast of Eldritch Alchemists is able to resist the tantalizing whispers of darkest knowledge; those who do not often fall prey to the unholy machinations of creatures who live far beyond the flickering pale light of this reality.
+
+##### Dark Bargain
+You immediately gain a number of Eldritch Knowledge points equal to your Intelligence modifier. You gain an additional point of Knowledge for every two levels you gain above 3 in Eldritch Alchemist. You may spend a short rest to recover 1d4 / 2 Knowledge at the expense of 2d10 Monstrosity, or regain Knowledge equal to half your maximum Secrets with a long rest.
+
+
+##### Eldritch Alchemy
+You immediately gain the ability to brew Common Potions using standard materials as well as first-level Elixirs. Potions you brew and Elixirs you make have a 1d4 chance to be more powerful than the standard version of the potion (at the discretion of the DM). At 7th level you may brew second-level Elixirs and Uncommon Potions. At 13th level you may brew third-level Elixirs. At 15th level you may brew Rare Potions. At 19th level you may brew Legendary Potions.
+
+You may also modify a potion or Elixir to be a Splash Potion. These are throwable items whose primary attribute is Wisdom. The throwables have a 30/60 ft range with a 10 foot circular effect radius.
+
+You may amplify your concoctions using Eldritch Essence. To do so, gain 1d10 Monstrosity to summon Eldritch Essence or harvest it from the world. Use the below table to determine the effect it has on the concoction.
+
+d6  | Effect
+--|--
+1  |  The blast radius of this potion is doubled.
+2  |  Add 2d4 to the effect of this potion.
+3  |  The effect of this potion is lowered by 1d4.
+4  |  The duration of this potion is doubled.
+5  |  The user of this potion takes 1d6 damage upon use.
+6  |  The user of the potion gains advantage on saving throws for the duration of the potion.
+
+
+##### Knowledge is Power
+You may spend a point of Knowledge to make a psychic attack against a creature of your choice. This attack does 2d6 damage per point of Knowledge spent and cannot be blocked. No more than two points of Knowledge may be used for this ability at a time. If the target is killed by this attack, immediately regain a point of Knowledge.
+
+##### Whispers of Madness
+At 9th level, you begin to understand the maddening nature of universal truth. You may spend your Knowledge to attempt to drive a creature Mad. This attack does 1d6 damage per point of Knowledge spent. The target must make a Wisdom saving throw (DC 12 + (Knowledge * 2)) or be Enraged. The creature remains Enraged for ten minutes or until the caster loses concentration.
+
+##### Darkness Beckons
+At 12th level, you realize that what you know can be used to turn others to your cause. You may spend your Knowledge to attempt to control a creature. This attack does 3d6 damage per point of Knowledge spent. The target must make a Wisdom saving throw (DC 15 + (Knowledge)) or fall under your control. The creature remains under your control for (Knowledge * 5) minutes or until the caster releases them.
+
 
 ### Barbarian
 
@@ -436,7 +523,7 @@ Reskin/Tweak of Order of the Lycan
 ### Druid
 
 
-#### Eldritch Shifter
+#### Circle of Mars
 
 
 ### Bard
@@ -531,7 +618,7 @@ Starting when you choose this archetype at 3rd level, you gain special affinity 
 A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d10 every two levels in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with. Using this ability also increases your Monstrosity by 5 points.
 
 ##### Eldritch Guardian
-A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half.
+A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half. At 9th level, your Eldritch companion may make an additional reaction. This reaction cannot be spent on this ability.
 
 
 ##### Manifest
@@ -561,6 +648,20 @@ At 15th level, this transformation becomes faster and may be performed as a bonu
 
 
 ### Elixirs
+
+#### About
+
+#### Elixirs
+
+
+##### Level One
+Name  | Effect  | Materials  | Duration  | Value  
+--|---|---|---|---
+  |   |   |   |   
+  |   |   |   |     
+  |   |   |   |     
+  |   |   |   |     
+  |   |   |   |     
 
 ### Gadgets
 Artifacts of the Old World; new inventions blending magic and technology; however you draw the line, Gadgets are more special than the average item and may require special experience to use.
@@ -636,6 +737,8 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 ##### The Dreamer
 
 ##### The Crawling Chaos
+
+##### Charlie on the MTA
 
 
 #### Generic
