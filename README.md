@@ -385,7 +385,7 @@ When creating an Android, you have to determine what method of power generation 
 
 
 ### Symbiote
-Not quite human, not quite creature; a haunting portrait of a transformation half-done, a being trapped between equally hellish worlds. The Symbiote is a hellish, unfinished mixture of beings Eldritch and humanoid. A Symbiote is formed out of a failed Eldritch possession, and as such is a new creature forged from pieces of its constituent parties. 
+Not quite human, not quite creature; a haunting portrait of a transformation half-done, a being trapped between equally hellish worlds. The Symbiote is a hellish, unfinished mixture of beings Eldritch and humanoid. A Symbiote is formed out of a failed Eldritch possession, and as such is a new creature forged from pieces of its constituent parties.
 
 ## Feats
 
@@ -485,14 +485,14 @@ You may also modify a potion or Elixir to be a Splash Potion. These are throwabl
 
 You may amplify your concoctions using Eldritch Essence. To do so, gain 1d10 Monstrosity to summon Eldritch Essence or harvest it from the world. Use the below table to determine the effect it has on the concoction.
 
-d6  | Effect
---|--
-1  |  The blast radius of this potion is doubled.
-2  |  Add 2d4 to the effect of this potion.
-3  |  The effect of this potion is lowered by 1d4.
-4  |  The duration of this potion is doubled.
-5  |  The user of this potion takes 1d6 damage upon use.
-6  |  The user of the potion gains advantage on saving throws for the duration of the potion.
+d6 | Effect
+---|----------------------------------------------------------------------------------------
+1  | The blast radius of this potion is doubled.
+2  | Add 2d4 to the effect of this potion.
+3  | The effect of this potion is lowered by 1d4.
+4  | The duration of this potion is doubled.
+5  | The user of this potion takes 1d6 damage upon use.
+6  | The user of the potion gains advantage on saving throws for the duration of the potion.
 
 
 ##### Knowledge is Power
