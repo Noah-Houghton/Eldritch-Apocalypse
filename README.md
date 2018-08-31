@@ -427,9 +427,11 @@ Night Whisperer | You understand the foul creatures of a sleepless world in ways
 ##### Monstrous Rage
 This ability is similar to the Barbarian Rage, but allows the user to gain 2d8 points of Monstrosity and take 1d4 damage instead of spending a point of rage.
 
-##### Eldritch Strike
+##### Sanguine Strike
+The Flagellant draws strength from their pain and lashes out. 
 ##### Rend for the Old Gods
-##### Sanguine Punishment
+##### Bound by Blood
+##### Strength through Pain
 ##### Doombringer
 
 
@@ -528,7 +530,6 @@ Blood Hunters, already a rare and oft-untrusted group, are town heroes compared 
 
 
 #### Eldritch Host
-- Variant of Beastmaster  
 
 ##### Flavor
 *"So it's done then?" Archon growled, rolling his shoulders as he tried to get used to the unsettling feeling of something crawling just beneath the skin. The creature's response reverberated in his head, less an actual response than a wave of emotion, a sense of dark satisfaction.*  
@@ -740,7 +741,7 @@ Name          | Description                                                     
 Stun Gauntlet | An artifact from the old world that still sparks with condensed lightning. Melee unarmed assist, 2d6 lightning damage | +2     | Constitution (8 + Proficiency) or be Stunned | 1x Gauntlet<br>2x Electrical coils<br>1x Battery | Uncommon | 300 GP      | Requires the "Dangerous Equipment" Feat to wield proficiently
 Two-Way Radio | With this item, you can transmit or receive a message out over the airwaves to anyone using a radio within 5 miles. Because anyone with a radio can receive these messages, different factions have created increasingly complex codes to mask their messages leading to a continuous arms race between codetalkers and codebreakers. | | | 1x Antenna<br> 1x Battery | Common | 50 GP |
 Entangled Speakers | These speakers glow red with eldritch energy, and they each constantly emit the sounds surrounding their companion speaker. The devices emit the sounds at the exact same volume as they reach the companion device, and there is no apparent way to turn them off short of breaking them. Notably, there is no distance at which this communication is severed, and they can transmit even between planes. | | | 2x Speakers<br>2x Eldritch Crystals | Rare | 1000 GP | If the two speakers are brought within a foot of each other, a dangerous feedback loop is initiated which releases 2d10 force damage to everyone within 15 feet and destroys the speakers.
-Form Stealer | With this device, the user can take a photo of a subject, store it, and at any later time release an eldritch apparition mimicking the subject's appearance and voice. This apparition will take verbal orders from the user and can speak, move, and interact with electronics, however they cannot interact with any physical object. The user can use the camera's display to watch through the eyes of the apparition, and at any point pressing the power button on the camera will cause the apparition to dissipate. | | Perception Check DC 17 | 1x Camera<br>1x Projector<br>4x Eldritch Crystal | Note that while the eldritch spirit manifesting the apparition is compelled to follow the orders of the user, when confronted with situations beyond the scope of its orders the spirit will simply choose its course of action according to its whims.
+Form Stealer | With this device, the user can take a photo of a subject, store it, and at any later time release an eldritch apparition mimicking the subject's appearance and voice. This apparition will take verbal orders from the user and can speak, move, and interact with electronics, however they cannot interact with any physical object. The user can use the camera's display to watch through the eyes of the apparition, and at any point pressing the power button on the camera will cause the apparition to dissipate. | | Perception Check DC 17 | 1x Camera<br>1x Projector<br>4x Eldritch Crystal | | | Note that while the eldritch spirit manifesting the apparition is compelled to follow the orders of the user, when confronted with situations beyond the scope of its orders the spirit will simply choose its course of action according to its whims.
 Night Vision Goggles | Wearing these goggles provides the user with darkvision out to 30 feet. | | | 2x Camera<br>1x Circuitry | Common | 50 GP|  
 
 
