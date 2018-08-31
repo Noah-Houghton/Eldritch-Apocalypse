@@ -373,14 +373,6 @@ When creating an Android, you have to determine what method of power generation 
 ##### Tier 3 Power Generators
 
 
-
-### Abomination
-
-#### Flavor
-
-#### About
-
-
 ### Saerun
 
 
@@ -424,6 +416,230 @@ Night Whisperer | You understand the foul creatures of a sleepless world in ways
 ## Subclasses
 
 
+### Barbarian
+
+
+#### Flagellant
+
+##### Flavor
+##### About
+
+##### Monstrous Rage
+This ability is similar to the Barbarian Rage, but allows the user to gain 2d8 points of Monstrosity and take 1d4 damage instead of spending a point of rage.
+
+##### Eldritch Strike
+##### Rend for the Old Gods
+##### Sanguine Punishment
+##### Doombringer
+
+
+### Bard
+
+
+#### Demagogue
+
+##### Flavor
+##### About
+
+##### Silver Tongue
+##### Iron Fist
+##### Pan et Circuses
+##### Enemy of the People
+
+### Blood Hunter
+
+
+#### Order of the Abomination
+Reskin/Tweak of Order of the Lycan
+
+##### Flavor
+##### About
+Blood Hunters, already a rare and oft-untrusted group, are town heroes compared to the treatment of those among the Order of the Abomination. These creatures once flesh and blood took into their form the essence of the dark forms which plague this world, becoming something more powerful at a terrible cost.
+
+##### Blood of the Abomination
+##### Eldritch Whispers
+##### At All Costs
+##### The Blood Quickens
+##### Abominable Howl
+
+
+### Cleric
+
+
+#### Crusader
+
+##### Flavor
+##### About
+
+##### Zealous
+##### Sacred Vow
+##### The Dead are Gone (buffs TLH once)
+##### The Living are Hungry (buffs TDG once)
+
+
+
+
+
+### Druid
+
+
+#### Circle of Mars
+
+##### Flavor
+
+##### About
+
+##### Eldritch Favor
+
+##### Madness
+
+##### Otherworldly Communion
+
+##### Eldritch Form
+
+### Fighter
+
+
+#### Wasteland Survivor
+
+##### Flavor
+##### About
+
+##### Determination
+##### Waste Not, Want Not
+##### Hit and Run
+##### Survival of the Fittest
+##### Scavenger
+
+
+### Monk
+
+#### Way of the Void
+
+##### Flavor
+##### About
+
+##### Path of the Void
+##### Open Your Mind (psychic attack)
+##### Vorpal Strike
+##### Form is in the Mind
+
+### Ranger
+
+
+#### Eldritch Host
+- Variant of Beastmaster  
+
+##### Flavor
+*"So it's done then?" Archon growled, rolling his shoulders as he tried to get used to the unsettling feeling of something crawling just beneath the skin. The creature's response reverberated in his head, less an actual response than a wave of emotion, a sense of dark satisfaction.*  
+
+*"I'll take that as a yes."*  
+
+*Archon flexed again and watched as the creature's terribly jagged, insect-like forearm materialized from the shadows above his shoulder, hanging down like some abominable shoulder piece. A grin stretched across his face, unnatural.*
+
+*"Well then. Let's tear some shit up."*  
+
+*A satisfied, unearthly growl precipitated Archon's purposeful stride back towards the House of Sorrows.*
+
+##### About
+Eldritch Hosts are those whose connection with nature extends to even those most unnatural creatures who roam the streets of Awakened Boston. In exchange for the Eldritch creature's assistance in battle and otherwise, the Host provides its flesh and energy as sustenance. This is not always an easy partnership, nor always a willing one, but it is nevertheless powerful. Eldritch creatures' motivations are as diverse as they are powerful. Perhaps a Lawful Good Host contracts with a creature determined to defeat the Eldritch legions, or a Chaotic Evil host shares a love of destruction with her familiar.
+
+##### Eldritch Affinity
+Starting when you choose this archetype at 3rd level, you gain special affinity with an Eldritch entity of your choice (at the GM's discretion). You immediately gain a number of Eldritch Energy points equal to your Wisdom modifier (minimum of 1). You can spend Eldritch Energy to perform a variety of Eldritch abilities.  
+
+**Every time you score a critical hit while in combat, you immediately regain a point of Eldritch Energy.**  
+**If you kill someone with an Eldritch ability, roll 1d8. If it is greater than 6, regain a point of Eldritch Energy as well as 5 additional points of Monstrosity.**
+
+
+##### Eldritch Assistance
+A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d10 every two levels in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with. Using this ability also increases your Monstrosity by 5 points.
+
+##### Eldritch Guardian
+A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half. At 9th level, your Eldritch companion may make an additional reaction. This reaction cannot be spent on this ability.
+
+
+##### Manifest
+There, in the shadows - a shape, moving on its own! Starting at 7th level, you may spend two points of Eldritch Energy to summon a spectral version of your Eldritch familiar. This specter has 5d6 HP and has a reduced set of abilities from its corporeal version. The specter lasts until the caster's concentration is broken, the spell is ended by the caster, or after an hour, whichever comes first.
+
+At 17th level, this spell can be cast as a bonus action and no longer requires concentration to maintain. In addition, the specter gains an additional 4d6 HP and has full access to its abilities.
+
+
+##### Eldritch Form
+A most terrible sight - twisted and snarling, abomination in two worlds. Starting at 11th level, you may spend two Eldritch Energy points to use an action to meld your form with your Eldritch familiar's. You immediately heal 4d6 hit points and gain advantage on your next attack. A series of other effects occur based on the selected familiar, detailed in the Monsters section of this expansion. Your Monstrosity increases by 30 points immediately when you use this ability and is reduced by 10 when the form ends.
+
+At 15th level, this transformation becomes faster and may be performed as a bonus action.
+
+
+
+
+### Rogue
+
+#### Shadow Tinkerer
+- variant of arcane trickster  
+
+##### Flavor
+*"Most folks," Arn-Tholn began, twirling a grease-blackened wrench around one long, elvish finger, "don't think too hard about what goes into what they use." Deft hands worked faster than she spoke, pushing tiny metal bits into exactly the right place. Cover, secure, test. A little to the left. Orn watched as she rolled to the other corner of her tiny workshop, fishing for just the right esoteric part to make complete her invention.*  
+
+*"Is that so? And you're telling me you're the sort to do that kind of thinking." Orn rumbled, the strange consonants of the Common dialect rolling uncomfortably over a tongue used to the simple beauty of the Orcish language. The elf clicked her tongue in a sort of annoyed confirmation, delving deeper into the mechanics of the small disk she was working on.*  
+
+*"That would be my point, indeed." With a final click and a satisfied sound, she rolled over to her large guest. Handing the disk to him, she waved the same wrench over towards the door. "Try that out. You're used to throwing, right? See if you can get it into that dumpster." Orn hefted the small thing, dwarfed by his hand, and raised an eyebrow.*
+
+*"This thing is supposed to get me in to the grand bank?"*
+
+*"Yes. Now throw!" She gestured again. Skeptical, Orn did as she asked, throwing the disk in a nice arc towards the dumpster about a hundred feet away.*
+
+*Even at such a distance, he could feel the incredible heat of the explosion as if it were right in front of him. The dumpster erupted in a massive fireball, making him glad that they were in an abandoned part of town. He turned to the now-smiling elf, her eyes glittering with amusement -- and something darker -- as she held another of the devices out to him.*
+
+*"Now, I believe we were about to discuss payment?"*
+
+##### About
+Shadow Tinkerers forget more about gadgetry than most folks will ever learn. These masters of gears and pulleys hit hard using traps, gadgets, and restored artifacts of the Old World. Whether it's carefully sabotaging a shipment of goods or finding just the right time to incapacitate an enemy, the Shadow Tinkerer is a force to be reckoned with.
+
+##### Tinkerer
+Starting when you assume this archetype at 3rd level, you may spend a short rest Tinkering with a weapon or item in your possession. The die to roll, and the outcome it results in, are detailed in the table below.
+
+
+| Type of Item      | Die to Roll | On Success                                                   | On Failure                        |
+|-------------------|-------------|--------------------------------------------------------------|-----------------------------------|
+| Nonmagical Weapon | d6          | 4-6: add your Proficiency modifier to hit for next encounter | 1: -2 to hit for next encounter   |
+| Magical Weapon    | d8          | 5-8: add your Proficiency modifier to hit for next encounter | 1-2: -2 to hit for next encounter |
+
+##### Gadgeteer
+Starting at 3rd level, you may spend a short rest constructing a Trap or repairing a Gadget. You also gain one Uncommon or Common Gadget selected from the table located in the Items section of this expansion.
+
+
+##### One with the Shadows
+Starting at 5th level, you may use this ability once per short rest to blend into the shadows around you. You gain advantage on Stealth rolls against creatures without dark vision and gain an additional 10 ft of movement speed. At 14th level this ability works against creatures with dark vision as well.
+
+At 7th level you may make a short range teleport between shadowed areas no more than 20 feet apart. At 12th level this range increases to 40 feet.
+
+
+##### Mechanically Inclined
+Starting at 3rd level, you immediately gain knowledge of a school of Mechanical Workings chosen from the table below. You may wield any weapon from that school proficiently and gain advantage on checks involving that particular school of knowledge.
+
+School  | Related Ability Score  | Example Technologies
+--|---|--
+Kinetic  | DEX  |  Firearms, Spring/Gear traps
+Chemical  | INT  |  Elixirs,
+Extraplanar  | WIS  |  
+
+
+### Sorcerer
+
+
+#### Technomancer
+
+##### Flavor
+
+##### About
+
+##### Technomancy
+##### Big Data
+##### Control Technology
+##### Ctrl-alt-delete
+##### Surge
+
+
 ### Warlock
 
 
@@ -437,16 +653,11 @@ Night Whisperer | You understand the foul creatures of a sleepless world in ways
 ##### About
 Unwilling warrior or bloodthirsty vanguard, the Eldritch Warlock has contracted with those most powerful and terrible of creatures -- the Old Gods, harbingers of great doom and leaders of the Eldritch Invasion. Whether through unworldly guile or hapless foolishness, these warlocks exchange something of mortal value to gain favor with an Old God. They make fearsome allies and formidable foes, although their allegiance may be somewhat suspect - as no one, least of all the warlock, knows when their terrible master may call upon them for some unspeakable act.
 
-#####
-
-
-
-
-### Blood Hunter
-
-
-#### Order of the Abomination
-Reskin/Tweak of Order of the Lycan
+##### Otherworldly Patron
+##### Its Pound of Flesh
+##### Eldritch Bond (weapon or familiar)
+##### Friend of the Shadows
+##### The Great Old Ones
 
 
 ### Wizard
@@ -505,145 +716,6 @@ At 9th level, you begin to understand the maddening nature of universal truth. Y
 At 12th level, you realize that what you know can be used to turn others to your cause. You may spend your Knowledge to attempt to control a creature. This attack does 3d6 damage per point of Knowledge spent. The target must make a Wisdom saving throw (DC 15 + (Knowledge)) or fall under your control. The creature remains under your control for (Knowledge * 5) minutes or until the caster releases them.
 
 
-### Barbarian
-
-
-#### Doombringer
-
-
-### Sorcerer
-
-
-#### Technomancer
-
-##### Flavor
-
-##### About
-
-### Druid
-
-
-#### Circle of Mars
-
-
-### Bard
-
-
-#### Demagogue
-
-
-### Rogue
-
-#### Shadow Tinkerer
-- variant of arcane trickster  
-
-##### Flavor
-*"Most folks," Arn-Tholn began, twirling a grease-blackened wrench around one long, elvish finger, "don't think too hard about what goes into what they use." Deft hands worked faster than she spoke, pushing tiny metal bits into exactly the right place. Cover, secure, test. A little to the left. Orn watched as she rolled to the other corner of her tiny workshop, fishing for just the right esoteric part to make complete her invention.*  
-
-*"Is that so? And you're telling me you're the sort to do that kind of thinking." Orn rumbled, the strange consonants of the Common dialect rolling uncomfortably over a tongue used to the simple beauty of the Orcish language. The elf clicked her tongue in a sort of annoyed confirmation, delving deeper into the mechanics of the small disk she was working on.*  
-
-*"That would be my point, indeed." With a final click and a satisfied sound, she rolled over to her large guest. Handing the disk to him, she waved the same wrench over towards the door. "Try that out. You're used to throwing, right? See if you can get it into that dumpster." Orn hefted the small thing, dwarfed by his hand, and raised an eyebrow.*
-
-*"This thing is supposed to get me in to the grand bank?"*
-
-*"Yes. Now throw!" She gestured again. Skeptical, Orn did as she asked, throwing the disk in a nice arc towards the dumpster about a hundred feet away.*
-
-*Even at such a distance, he could feel the incredible heat of the explosion as if it were right in front of him. The dumpster erupted in a massive fireball, making him glad that they were in an abandoned part of town. He turned to the now-smiling elf, her eyes glittering with amusement -- and something darker -- as she held another of the devices out to him.*
-
-*"Now, I believe we were about to discuss payment?"*
-
-##### About
-Shadow Tinkerers forget more about gadgetry than most folks will ever learn. These masters of gears and pulleys hit hard using traps, gadgets, and restored artifacts of the Old World. Whether it's carefully sabotaging a shipment of goods or finding just the right time to incapacitate an enemy, the Shadow Tinkerer is a force to be reckoned with.
-
-##### Tinkerer
-Starting when you assume this archetype at 3rd level, you may spend a short rest Tinkering with a weapon or item in your possession. The die to roll, and the outcome it results in, are detailed in the table below.
-
-
-| Type of Item      | Die to Roll | On Success                                                   | On Failure                        |
-|-------------------|-------------|--------------------------------------------------------------|-----------------------------------|
-| Nonmagical Weapon | d6          | 4-6: add your Proficiency modifier to hit for next encounter | 1: -2 to hit for next encounter   |
-| Magical Weapon    | d8          | 5-8: add your Proficiency modifier to hit for next encounter | 1-2: -2 to hit for next encounter |
-
-##### Gadgeteer
-Starting at 3rd level, you may spend a short rest constructing a Trap or repairing a Gadget. You also gain one Uncommon or Common Gadget selected from the table located in the Items section of this expansion.
-
-
-##### One with the Shadows
-Starting at 5th level, you may use this ability once per short rest to blend into the shadows around you. You gain advantage on Stealth rolls against creatures without dark vision and gain an additional 10 ft of movement speed. At 14th level this ability works against creatures with dark vision as well.
-
-At 7th level you may make a short range teleport between shadowed areas no more than 20 feet apart. At 12th level this range increases to 40 feet.
-
-
-##### Mechanically Inclined
-Starting at 3rd level, you immediately gain knowledge of a school of Mechanical Workings chosen from the table below. You may wield any weapon from that school proficiently and gain advantage on checks involving that particular school of knowledge.
-
-School  | Related Ability Score  | Example Technologies
---|---|--
-Kinetic  | DEX  |  Firearms, Spring/Gear traps
-Chemical  | INT  |  Elixirs,
-Extraplanar  | WIS  |  
-
-### Monk
-
-#### Way of the Void
-
-### Ranger
-
-
-#### Eldritch Host
-- Variant of Beastmaster  
-
-##### Flavor
-*"So it's done then?" Archon growled, rolling his shoulders as he tried to get used to the unsettling feeling of something crawling just beneath the skin. The creature's response reverberated in his head, less an actual response than a wave of emotion, a sense of dark satisfaction.*  
-
-*"I'll take that as a yes."*  
-
-*Archon flexed again and watched as the creature's terribly jagged, insect-like forearm materialized from the shadows above his shoulder, hanging down like some abominable shoulder piece. A grin stretched across his face, unnatural.*
-
-*"Well then. Let's tear some shit up."*  
-
-*A satisfied, unearthly growl precipitated Archon's purposeful stride back towards the House of Sorrows.*
-
-##### About
-Eldritch Hosts are those whose connection with nature extends to even those most unnatural creatures who roam the streets of Awakened Boston. In exchange for the Eldritch creature's assistance in battle and otherwise, the Host provides its flesh and energy as sustenance. This is not always an easy partnership, nor always a willing one, but it is nevertheless powerful. Eldritch creatures' motivations are as diverse as they are powerful. Perhaps a Lawful Good Host contracts with a creature determined to defeat the Eldritch legions, or a Chaotic Evil host shares a love of destruction with her familiar.
-
-##### Eldritch Affinity
-Starting when you choose this archetype at 3rd level, you gain special affinity with an Eldritch entity of your choice (at the GM's discretion). You immediately gain a number of Eldritch Energy points equal to your Wisdom modifier (minimum of 1). You can spend Eldritch Energy to perform a variety of Eldritch abilities.  
-
-**Every time you score a critical hit while in combat, you immediately regain a point of Eldritch Energy.**  
-**If you kill someone with an Eldritch ability, roll 1d8. If it is greater than 6, regain a point of Eldritch Energy as well as 5 additional points of Monstrosity.**
-
-
-##### Eldritch Assistance
-A contract sealed is a contract kept. As a bonus action, you may spend a point of Eldritch Energy to summon the assistance of the Eldritch creature you are currently hosting. Its assistance allows you to add an additional 1d6 damage to a successful attack. This number increases by 1d10 every two levels in Eldritch Host you gain above 3rd level. The damage type is determined by the Eldritch creature you have contracted with. Using this ability also increases your Monstrosity by 5 points.
-
-##### Eldritch Guardian
-A shared body, a shared need to survive. Starting at 5th level, you may spend a point of Eldritch Energy as a reaction to reduce incoming damage by half. At 9th level, your Eldritch companion may make an additional reaction. This reaction cannot be spent on this ability.
-
-
-##### Manifest
-There, in the shadows - a shape, moving on its own! Starting at 7th level, you may spend two points of Eldritch Energy to summon a spectral version of your Eldritch familiar. This specter has 5d6 HP and has a reduced set of abilities from its corporeal version. The specter lasts until the caster's concentration is broken, the spell is ended by the caster, or after an hour, whichever comes first.
-
-At 17th level, this spell can be cast as a bonus action and no longer requires concentration to maintain. In addition, the specter gains an additional 4d6 HP and has full access to its abilities.
-
-
-##### Eldritch Form
-A most terrible sight - twisted and snarling, abomination in two worlds. Starting at 11th level, you may spend two Eldritch Energy points to use an action to meld your form with your Eldritch familiar's. You immediately heal 4d6 hit points and gain advantage on your next attack. A series of other effects occur based on the selected familiar, detailed in the Monsters section of this expansion. Your Monstrosity increases by 30 points immediately when you use this ability and is reduced by 10 when the form ends.
-
-At 15th level, this transformation becomes faster and may be performed as a bonus action.
-
-
-### Fighter
-
-
-#### Wasteland Survivor
-
-
-### Cleric
-
-
-#### Crusader
-
 ## Items
 
 
@@ -653,16 +725,13 @@ At 15th level, this transformation becomes faster and may be performed as a bonu
 
 #### Elixirs
 
-
-##### Level One
-Name  | Effect  | Materials  | Duration  | Value  
---|---|---|---|---
-  |   |   |   |   
-  |   |   |   |     
-  |   |   |   |     
-  |   |   |   |     
-  |   |   |   |     
-
+Level | Name | Effect | Materials | Duration | Value
+------|------|--------|-----------|----------|------
+      |      |        |           |          |
+      |      |        |           |          |
+      |      |        |           |          |
+      |      |        |           |          |
+      |      |        |           |          |
 ### Gadgets
 Artifacts of the Old World; new inventions blending magic and technology; however you draw the line, Gadgets are more special than the average item and may require special experience to use.
 
@@ -841,38 +910,33 @@ In addition to the traps outlined in the standard D&D5e ruleset, these traps may
 ### Civilized
 
 
+#### Mixed Camp of Ha'ard
+- real-world location: Harvard T-stop
+- ragtag group of survivors
+- direct democracy
 #### Human Stronghold of Fort Independence
 - real-world location: Fort Independence
 - Human stronghold, strong military
 - military junta
-
-
 #### Elven City of Mus'ience
 - real-world location: Museum of Science
 - Elven city based around knowledge acquisition
 - scientific oligarchy
-
 #### The Free Town of Common
 - Real-world location: Boston Common
 - Mixed-race trading town operating much like a wild-west town
 - oligarchy
-
-
 #### The Gnomish City of Pru'tial
 - Real-world location: The Prudential
 - Gnomish city which extends deep underground
 - traditional monarchy
-
 #### The Dwarven City of Ha'bor
 - Real-world location: Boston Harbor
 - Dwarven city which used to run marine travel/fishing before the Resurgence
 - elected tribunal, serve for life
-
 #### Orcish Settlement of Aqu'rium
 - Real-world location: Boston Aquarium
 - Orc city which focuses around aqua magic
-- direct democracy
-
 #### Human City of Mai'Tech
 - Real-world location: MIT
 - Human city focused on resurrection of tech (and integration with magic)
