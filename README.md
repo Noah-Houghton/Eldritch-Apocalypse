@@ -1,5 +1,6 @@
 # Post Apocalyptic Boston Homebrew
 
+**NOTE: This project is still very much under development and will undergo a variety of changes as it is tested and expanded.**
 
 ## Todo
 
