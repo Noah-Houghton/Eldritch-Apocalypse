@@ -882,6 +882,8 @@ Defense            | Defense is a measure of a Settlement's passive ability to d
 
 #### Bunker Hill Monument
 
+#### The Far Quad
+
 
 #### USS Constitution
 
