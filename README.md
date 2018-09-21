@@ -271,11 +271,17 @@ Reskin/Tweak of Order of the Lycan
 
 ##### Flavor
 ##### About
-Blood Hunters, already a rare and oft-untrusted group, are town heroes compared to the treatment of those among the Order of the Abomination. These creatures once flesh and blood took into their form the essence of the dark forms which plague this world, becoming something more powerful at a terrible cost.
+Blood Hunters, already a rare and oft-untrusted group, are town heroes compared to the treatment of those among the Order of the Abomination. These creatures once flesh and blood took into their form the essence of the dark forms which plague this world, becoming something more powerful at a terrible cost. In the course of this ritual, the blood hunter merges their being with that of a specific eldritch creature and takes on a variety of their physiological and psychological peculiarities.
 
 ##### Blood of the Abomination
-##### Eldritch Whispers
-##### At All Costs
+By joining the blood with that of an abomination, the blood hunter permanently takes on some of the physical characteristics of their chosen creature. Because of this, they gain advantage on perception checks in their creature's natural environment. Further, they gain a resistance in accordance with their creature's unique physiology.
+
+##### Monstrous Infusion
+In moments of need, the blood hunter can reach into their pool of eldritch energy and rejuvenate their tired and broken body in exchange for giving into their monstrous nature. Beginning at 3rd level, the blood hunter can recover 2d8 hit points while gaining 3d10 points of monstrosity, as a bonus action. For each two levels in blood hunter above level three, an additional 1d8 hit points is recovered. After two uses, the user must take a long rest before using the power again.
+
+##### Red Discipline
+Members of the Order of the Abomination are masters over their inner demons, and they have learned to use pain to sharpen their mind and harden their will as they seek to wrest control from their eldritch form. Beginning at 7th level, a member of the order can use an action to halve their monstrosity through meditative blood magic which inflicts 2d8 psychic damage. For each two levels above level 5, the damage increases by 1d8. This ability can be used once per long rest.
+
 ##### The Blood Quickens
 ##### Abominable Howl
 
