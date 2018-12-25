@@ -1,0 +1,43 @@
+<!-- index.nunjucks -->
+{% extends "layout.njk" %}
+{% block content %}
+{% include "partials/navigation.njk" %}
+
+<main role="main">
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div class="container">
+  <h1 class="display-3">Noah Houghton</h1>
+  <p>I'm a Harvard undergraduate studying a strange mixture of media, history, and programming. Check out my projects at the 'Project' tab above.</p>
+  {# <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p> #}
+</div>
+</div>
+
+<div class="container">
+<!-- Example row of columns -->
+<div class="row">
+  <div class="col-md-4">
+    <h2>Programming</h2>
+    <p>Ask me for access to my course repos to see work in systems programming, artificial intelligence, and personal projects. </p>
+    <p><a class="btn btn-secondary" href="github.com/Noah-Houghton" role="button">My GitHub »</a></p>
+  </div>
+  <div class="col-md-4">
+    <h2>Game Design</h2>
+    <p>Check out my personal game design projects here. My major project at the moment is <b>Eldritch Apocalypse</b>, a D&D5e expansion set in a futuristic Boston after a Lovecraftian apocalypse. </p>
+    <p><a class="btn btn-secondary" href="#" role="button">Game Design »</a></p>
+  </div>
+  <div class="col-md-4">
+    <h2>Creative Writing</h2>
+    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+egestas eget quam. Vestibulum id ligula porta felis euismod semper.
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+ut fermentum massa justo sit amet risus.</p>
+    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+  </div>
+</div>
+
+<hr>
+
+</div>
+{% endblock %}
