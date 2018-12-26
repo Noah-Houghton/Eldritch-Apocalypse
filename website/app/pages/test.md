@@ -1,9 +1,9 @@
 ---
-layout: layout
+layout: blog
 title: "Test Page"
 description: "Some Awesome Description"
----
 
-Hello World
-===========
+---
+<!-- {{ page.title }} -->
+
 # Do Stuff
