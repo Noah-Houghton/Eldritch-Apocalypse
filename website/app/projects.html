@@ -50,46 +50,41 @@
 </nav>
 
 
+<!-- navigation.njk -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="#">Noah Houghton</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-<main role="main">
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-<div class="container">
-  <h1 class="display-3">Noah Houghton</h1>
-  <p>I'm a Harvard undergraduate studying a strange mixture of media, history, and programming. Check out my projects at the 'Project' tab above.</p>
-
+<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="projects.html">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="test.html">test</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown01">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
 </div>
-</div>
+</nav>
 
-<div class="container">
-<!-- Example row of columns -->
-<div class="row">
-  <div class="col-md-4">
-    <h2>Programming</h2>
-    <p>Ask me for access to my course repos to see work in systems programming, artificial intelligence, and personal projects. </p>
-    <p><a class="btn btn-secondary" href="http://www.github.com/Noah-Houghton" role="button">My GitHub »</a></p>
-  </div>
-  <div class="col-md-4">
-    <h2>Game Design</h2>
-    <p>Check out my personal game design projects here. My major project at the moment is <b>Eldritch Apocalypse</b>, a D&D5e expansion set in a futuristic Boston after a Lovecraftian apocalypse. </p>
-    <p><a class="btn btn-secondary" href="#" role="button">Game Design »</a></p>
-  </div>
-  <div class="col-md-4">
-    <h2>Creative Writing</h2>
-    <p>Narrative has always been my thing. Check out what I've done!</p>
-    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-  </div>
-  <div class="col-md-4">
-    <h2>Journalism</h2>
-    <p>I've been a writer, an editor, and will soon be a director of special projects for the Harvard Crimson Arts Board. Check me out!</p>
-    <p><a class="btn btn-secondary" href="https://www.thecrimson.com/writer/1213236/Noah_F._Houghton/" role="button">Visit Me at The Crimson »</a></p>
-  </div>
-</div>
 
-<hr>
-
-</div>
 
 <!-- setting up bootstrap scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
