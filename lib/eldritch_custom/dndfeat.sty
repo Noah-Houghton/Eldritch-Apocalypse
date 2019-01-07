@@ -1,0 +1,20 @@
+\RequirePackage{etoolbox}
+
+\DeclareListParser{\ParseFeatItems}{;}
+\let\featname\section
+
+% usage: \dndfeat[<Comma-separated action items>]{<Feat Title>}{<Feat Description>}
+% if you do not supply the bracket argument, it will adjust smartly!
+\newcommand{\dndfeat}[3][]{
+    \def\olddo{\do}
+    \featname{#2}
+    #3
+    \ifstrempty{#1}{}{
+    \begin{itemize}
+        % define how we treat feat items here
+        \renewcommand*{\do}[1]{\item ##1}
+        \ParseFeatItems{#1}
+    \end{itemize}
+    }
+    \renewcommand{\do}{\olddo}
+}

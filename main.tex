@@ -1,0 +1,78 @@
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstring-captions.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%	\usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%	\usepackage{polyglossia}
+%	\setdefaultlanguage{<lang>}
+\documentclass[letterpaper,10pt,twoside,twocolumn,openany]{dndbook}
+
+\usepackage[english]{babel}
+%usepackage[italian]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage{hang}
+\usepackage{lipsum}
+\usepackage{listings}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+}
+
+% enable file abstraction
+\usepackage{subfiles}
+% enable links
+\usepackage{hyperref}
+
+\title{Eldritch Apocalypse Ruleset}
+\author{Noah Houghton\and Kyle Deeds\and Charlie Colt-Simonds\and Maria Altshuller\and Aravind Bjyu\and Akash Wasil\and Jose Martinez Ferdinand}
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\part{Introduction}
+The Eldritch Apocalypse Ruleset is very much what it sounds like on the tin: an unofficial add-on to the Dungeons and Dragons Fifth Edition ruleset which helps game masters run campaigns in a future whose past is much like our present, but which has been ravaged into a state of apocalypse by horrors from beyond the veil. 
+
+The ruleset is tested and maintained by Noah Houghton and Kyle Deeds, whose contact information can be found at the end of this document in section \hypertarget{contact}{\ref{contact}}. 
+
+% feats
+\part{Feats}
+\subfile{feats/feats.tex}
+
+\part{Spells}
+\subfile{spells/spells.tex}
+
+\part{New Mechanics}
+\subfile{new_mechanics/new_mechanics.tex}
+
+\part{Setting}
+\subfile{Setting/setting.tex}
+
+\part{Races}
+\subfile{races/races.tex}
+
+\part{Classes}
+\subfile{Classes/classes.tex}
+
+\part{Bestiary}
+\subfile{bestiary/bestiary.tex}
+
+\part{Our Campaign}
+\subfile{campaign/campaign.tex}
+
+\part{Administrative}
+\chapter{Roles and Contact Info} \label{contact}
+\hyperlink{contact}{Contacts}
+Lead Designer and Game Master - Noah Houghton - nhoughton@college.harvard.edu
+
+Systems Designer and Player Tester - Kyle Deeds - kdeeds@college.harvard.edu
+\end{document}

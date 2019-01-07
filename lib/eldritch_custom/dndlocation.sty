@@ -1,0 +1,13 @@
+\RequirePackage{etoolbox}
+\newenvironment{dndlocation}[2]{
+    \let\locationname\subsubsection
+    \let\locationdescription\textit
+    \let\locationinfoname\paragraph
+    \let\locationinfocontent\normalfont
+    \newcommand{\locationinfo}[2]{
+        \locationinfoname{##1} \locationinfocontent{##2}
+    }
+    \locationname{#1}
+    \locationdescription{#2}
+    % \locationinfo entries will go here
+}{}

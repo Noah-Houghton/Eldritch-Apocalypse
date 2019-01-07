@@ -1,0 +1,39 @@
+\RequirePackage{etoolbox}
+\DeclareListParser{\ParseRaceFeature}{|}
+    
+\newenvironment{dndrace}[2]{
+    \let\racename\chapter
+    \let\racedescription\normalfont
+    \let\raceactionname\section
+    \let\raceactionitem\textbf
+    \let\racefeaturename\section
+    \let\racefeaturedesc\normalfont
+    \let\narrativefont\textit
+    \let\itemfont\textbf
+    \newcommand{\narrative}[1]{
+        \narrativefont{##1}
+    }
+    \let\olddo\do
+    % here's where we define what to do with the items in the list
+    \renewcommand*{\do}[1]{\item \itemfont{##1}}%
+    \newcommand{\racefeature}[3][]{
+        \racefeaturename{##2}
+        \racefeaturedesc{##3}
+        \ifstrempty{##1}{}{
+            \begin{itemize}
+                \ParseRaceFeature{##1}
+            \end{itemize}
+        }
+    }
+    \newcommand{\raceaction}[3][]{
+        % 2 is the name, 3 is the description, 1 is any add'l tags
+        \raceactionname{##2}
+        \ifstrempty{##1}{}{\raceactionitem{##1}}
+        \leavevmode \\
+        \noindent##3
+    }
+    \racename{#1}
+    \noindent\racedescription{#2}
+    \leavevmode \\
+    % \raceaction entries will go here
+}{\renewcommand{\do}{\olddo}}

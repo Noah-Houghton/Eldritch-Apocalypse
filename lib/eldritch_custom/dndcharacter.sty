@@ -1,0 +1,19 @@
+\RequirePackage{etoolbox}
+\newenvironment{dndcharacter}[3][]{
+    \let\charactername\subsubsection
+    % \let\characterdescription\normalfont
+    \let\characterinfoname\paragraph
+    \let\characterinfocontent\normalfont
+    \let\characterclass\textit
+    \let\characterphys\normalfont
+    \newcommand{\characterinfo}[2]{
+        \characterinfoname{##1} \characterinfocontent{##2}
+    }
+    \charactername{#2}
+    \characterclass{#3}
+    \ifstrempty{#1}{}{
+        \leavevmode \\
+        \noindent\textbf{Physical Description: }\characterphys{#1}
+    }
+    % \characterinfo entries will go here
+}{}

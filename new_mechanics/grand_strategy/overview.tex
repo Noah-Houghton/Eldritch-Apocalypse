@@ -1,0 +1,99 @@
+\documentclass[./././main.tex]{subfiles}
+ 
+\begin{document}
+
+% reference maps
+% https://cdn.mbta.com/sites/default/files/maps/2018-04-map-downtown.pdf
+% https://cdn.mbta.com/sites/default/files/maps/2018-04-map-system.pdf
+% https://bostonography.com/wp-content/uploads/2013/09/Survey-Map-4-lg.jpg
+
+
+\section{Grand Strategy}
+Taking back Boston is about more than winning individual battles. The real war for the streets will be won in the hearts and minds of the people. The Grand Strategy system implemented in this ruleset is intended to provide DMs with a codified way to represent, manipulate, and allow players to affect the world in which the game takes place. 
+
+\subsection{Rules}
+At the beginning of every in-game week, players will be asked to make decisions on what their controlled Settlements should do.
+
+\subsection{Resources}
+There are six major resources that a Settlement must balance to survive and thrive in the wastes of the Old City. They are Food, Water, Security, Hope, Wealth, and Production.
+
+The specific use and rules governing each resource are detailed below, but in general resources:
+\begin{itemize}
+    \item are represented on a 15-point scale
+    \item should be kept as high as possible
+    \item has a per-round generation rate
+\end{itemize}
+
+\subsubsection{Food}
+Without food, your people will starve -- or worse; for the survivors, madness and depravity may be preferable to starvation. 
+
+\header{Food}
+\begin{dndtable}[cX]
+\textbf{Stockpile} & \textbf{Effect} \\
+0                  & Settlement begins to shut down, generating a Starvation Crisis. \\
+1-5                & Settlement is on heavy rations; penalty to Production. Generates a Food Crisis. \\
+6-10               & Settlement is fed but not ready for a famine. No effects. \\
+11-15              & Settlement is fed and ready for what comes next. Bonus to Production. \\
+\end{dndtable}
+
+\subsubsection{Water}
+Water is the only resource more important than food. 
+\header{Water}
+\begin{dndtable}[cX]
+\textbf{Stockpile} & \textbf{Effect} \\
+0                  & Settlement begins to shut down, generating a Drought Crisis. \\
+1-5                & Settlement rations water; penalty to Food. Generates a Water Crisis. \\
+6-10               & Settlement has enough water but not ready for a drought. No effects. \\
+11-15              & Settlement has all they need and is ready for whatever comes next. Bonus to Food. \\
+\end{dndtable}
+
+\subsubsection{Security}
+Security is a measure of how ready the Settlement is to defend itself against attack -- or, in times of war, its ability to mount an effective attack.
+\header{Security}
+\begin{dndtable}[cX]
+\textbf{Security} & \textbf{Effect} \\
+0                  & Lawlessness rules the streets of the Settlement, generating a Lawless Crisis. \\
+1-5                & Settlement declares martial law or equivalent; penalty to Production. Generates a Security Crisis. \\
+6-10               & Settlement is secure. For now. No effects. \\
+11-15              & Settlement is completely secure and ready for whatever comes next. Bonus to Production. \\
+\end{dndtable}
+
+\subsubsection{Wealth}
+\header{Wealth}
+\begin{dndtable}[cX]
+\textbf{Wealth} & \textbf{Effect} \\
+0                  & The Settlement has no income for even basic needs, generating a Poverty Crisis. \\
+1-5                & Settlement barely has enough to stay afloat; penalty to Production. Generates a Wealth Crisis. \\
+6-10               & Settlement can pay its dues on time. No effects. \\
+11-15              & Settlement is rich enough to pay its dues and keep significant savings. Bonus to Production. \\
+\end{dndtable}
+
+\subsubsection{Production}
+\header{Production}
+\begin{dndtable}[cX]
+\textbf{Production} & \textbf{Effect} \\
+0                  & The Settlement's industries have ground to a halt, generating an Unemployment Crisis. \\
+1-5                & Settlement industries are beginning to close down; penalty to Wealth. Generates a Production Crisis. \\
+6-10               & Settlement industries are continuing to work. No effects. \\
+11-15              & Settlement industries are booming. Bonus to Wealth. \\
+\end{dndtable}
+
+\subsubsection{Hope}
+Hope is unlike the other resources in that it is completely relational to the values of the other resources, as a measure of how the citizens of a Settlement feel about their chances of surviving the next day. To calculate this value, use the below table.
+\begin{dndtable}[cX]
+\textbf{Number of Resources > 6} & \textbf{Effect} \\
+0                                & The Settlement has lost hope, generating a Despair Crisis. \\
+1                                & The Settlement has begun to believe that all is lost, generating a Hope Crisis. \\
+2                                & The Settlement is beginning to jump at the shadows. No effect. \\
+3                                & The Settlement is confident in their immediate future. Bonus to Production. \\
+4                                & The Settlement is beginning to believe in a better future. Bonuses to Production and Wealth. \\
+5                                & The Settlement is Hopeful. Bonuses to Production, Wealth, and Security. \\
+\end{dndtable}
+
+\subsubsection{Territory}
+Territory defines the size of a settlement. Territory is used to construct Improvements, which affect the Settlement's resource generation and provide other benefits.
+
+\subsubsection{Hideouts}
+Players can also develop their own holdings within Settlements, places where they can rest, recuperate, and replenish. Later on, Proteges/SpecOps can use Hideouts as bases of operations to improve their chances of success. 
+
+\end{document}

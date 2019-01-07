@@ -1,0 +1,62 @@
+\documentclass[letterpaper,10pt,openany]{dndbook}
+
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstring-captions.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%	\usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%	\usepackage{polyglossia}
+%	\setdefaultlanguage{<lang>}
+\usepackage[english]{babel}
+%usepackage[italian]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage{hang}
+\usepackage{lipsum}
+\usepackage{listings}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+}
+
+\begin{document}
+\chapter{Instructions}
+\subsection{Editing an existing file}
+This is by far the easiest thing to do in the workflow. Simply find the file which corresponds to the thing you want to edit, make your changes, and voila! When you recompile main.tex or any of the section.tex files, you'll see your changes reflected live.
+
+\subsection{Adding a new file to an existing folder}
+This is slightly more involved, but should be easy enough. First, navigate to the folder where your new file belongs. Create a new file there, naming it appropriately. Here, we'll call it 'example.tex'. Let's say that our file was created in a folder named Folder. When we create example.tex, the first thing we should do is set it up to correctly flow in to the main document:
+\begin{verbatim}
+    \documentclass[././main.tex]{subfiles}
+    \begin{document}
+    \end{document}
+\end{verbatim}
+The bracketed parameters should be changed to reflect where the document is relative to main.tex. 
+
+Next, you should edit Folder/folder.tex so that future compliations will include your hard work. To do this, simply navigate to Folder/folder.tex and insert \begin{verbatim}
+    \subfile{Folder/example.tex}
+\end{verbatim}
+at the appropriate place.
+
+Congrats! You've successfully added a new file and ensured that it will be included in future compilations.
+
+\subsection{Adding a new folder}
+This is the most involved, but at its heart is just a combination of the other two. Add a new folder (say, Folder/Folder2). Create a Folder2.tex file if it is a first-order folder, otherwise do not (in this case we would not add a new .tex file, simply flow in the contents of Folder2 into Folder/folder.tex). Then, start adding your files, remembering to add the respective subfile command to the document!
+
+If you do create a new Folder.tex file, remember that you have to flow it into main.tex. You do this in exactly the same way as you would flow in a normal file, by using the subfile command at the appropriate location in main.tex.
+
+\section{Custom commands}
+In general, if you're going to do something more than once, or use it in more than one place -- e.g. formatting an item description -- or if you're not entirely sure how you want it to be formatted in the end, it's not the worst idea to parametrize it. This is varying levels of difficulty depending on your familiarity with \LaTeX and on what sort of thing you're trying to automate. Nevertheless forge onwards, and make life better for all of us working on this project by automating some cool or boring thing. Add whatever new commands you want to their own .sty file under lib/eldritch\_custom, then make sure to add \begin{verbatim}
+    \RequirePackage{lib/eldritch_custom/youraddition}
+\end{verbatim} 
+to the bottom of the dnd.sty file. You'll see that dnditem and dndgadget are already there, providing an example of where to put stuff (if not how to write good \LaTeX  code).
+
+\section{Questions?}
+Email me at nhoughton@college.harvard.edu with your question and I'll do my best to help you address any confusion or concerns you may have!
+
+\end{document}

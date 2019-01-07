@@ -1,0 +1,36 @@
+% change '././main.tex' below to reflect -document's position in folder hierarchy
+\documentclass[./././main.tex]{subfiles}
+ 
+\begin{document}
+
+\section{Monstrosity}
+Monstrosity is a numeric representation of how close to the void any character is. It can be raised or lowered by: certain class-specific actions; spells; drinking Elixirs; taking a Long Rest; and entering or exiting areas of intense Eldritch activity.
+
+Monstrosity (MST) can be thought of as a separate health bar, with the difference being that lower MST is better. MST has two values for the player to manage: the first is a 20-point scale, against which the player must make checks. For example, a player with 10 MST would have a DC 10 saving throw on MST. All normal rules concerning saving throws apply to MST. As the character approaches 20 MST, they become increasingly attuned to their Eldritch heritage, and act accordingly. This rule is left intentionally vague so that individual DMs and players can decide for themselves how they wish to roleplay or integrate MST scaling into gameplay.
+
+The second aspect of Monstrosity tracks a character's long-term relationship with the Void. If the player ever goes above 20 MST, they gain a level in this system. Gaining a prestige level in MST means that the character has gone so far into the void that it is impossible to return to normalcy afterwards. The character manifests a new, permanent Eldritch-influenced feature and they are subsumed into their Eldritch Manifestation for 1d6 days, after which point their MST drops to 0.
+
+For each prestige level up to 3, the player receives a set negative effect, outlined by the 'Prestige Effects' table below.
+
+\header{Prestige Effects}
+\begin{dndtable}[cX]
+\textbf{Level} & \textbf{Effect} \\
+1              & -1 to all Skills \\
+2              & -1 to all Ability Scores \\
+3              & MST damage taken is doubled \\
+4+             & d20 (DC 10) to stay sane \\ 
+\end{dndtable}
+
+When a player gains a prestige level (up to level 3), the DM selects three traits (either randomly or by choice) from the 'Prestige Traits' table below. The player must then select one of them to add to their character. 
+
+\header{Prestige Traits}
+\begin{dndtable}[cXX]
+\textbf{d100} & \textbf{Trait} & \textbf{Effect} \\
+1             & Hard-skinned   & Gain resistance to Bludgeoning attacks \\
+2             & Aquatic        & Breathe, move, and fight underwater as if you were on land \\
+3             & The Eye        & Gain Truesight \\
+\end{dndtable}
+
+After level 3, the player receives no new Traits or Effects. Instead, on reaching >20 MST the player rolls a d20. If the number is greater than 10, the player succeeds the check and returns to humanity after 1d6 days. If the number is less than 10, the player fails the check and is permanently rendered their Eldritch Manifestation. This is effectively character death.
+
+\end{document}

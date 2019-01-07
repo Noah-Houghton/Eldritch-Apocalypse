@@ -1,0 +1,25 @@
+\RequirePackage{etoolbox}
+\newenvironment{dndbloodline}[4][]{
+    \let\bloodlinename\subsection
+    % \let\bloodlinedescription\normalfont
+    \let\bloodlineinfoname\subsubsection
+    \let\bloodlineinfocontent\normalfont
+    \let\bloodlinephys\normalfont
+    \let\bloodlinestats\textit
+    \let\bloodlinemanifestation\textbf
+    \let\bloodlinemanifestationdesc\normalfont
+    \newcommand{\bloodlineinfo}[2]{
+        \bloodlineinfoname{##1} \bloodlineinfocontent{##2}
+    }
+    \bloodlinename{#2}
+    \noindent\textbf{Cosmetic Markers: }\bloodlinephys{#3}
+    \ifstrempty{#1}{}{
+        \leavevmode \\
+        \noindent\textbf{Stat Effects: }\bloodlinestats{#1}
+    }
+    \leavevmode \\
+    % add a hyperlink so that we don't have to deal with describing the manifestation here, we can do it in the bestiary
+    \noindent\hyperlink{monster:#4}{\bloodlinemanifestation{Manifestation: }\bloodlinemanifestationdesc{#4}}
+    
+    % \bloodlineinfo entries will go here
+}{}
